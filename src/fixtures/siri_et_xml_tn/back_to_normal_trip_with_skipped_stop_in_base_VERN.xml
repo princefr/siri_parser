@@ -1,0 +1,130 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <ns6:NotifyEstimatedTimetable xmlns:ns2="http://www.siri.org.uk/siri"
+            xmlns:ns3="http://www.ifopt.org.uk/acsb"
+            xmlns:ns4="http://www.ifopt.org.uk/ifopt"
+            xmlns:ns5="http://datex2.eu/schema/2_0RC1/2_0"
+            xmlns:ns6="http://wsdl.siri.org.uk"
+            xmlns:ns7="http://wsdl.siri.org.uk/siri">
+            <ServiceDeliveryInfo>
+                <ns2:ResponseTimestamp>2022-11-15T15:15:33.400+01:00</ns2:ResponseTimestamp>
+                <ns2:ProducerRef>SNCF_ACCES_CLOUD</ns2:ProducerRef>
+                <ns2:ResponseMessageIdentifier>SNCF_ACCES_CLOUD:ResponseMessage::3536af0e-5d52-4fc9-875e-ab2c91efe560:LOC</ns2:ResponseMessageIdentifier>
+                <ns2:RequestMessageRef>SNCF_ACCES_CLOUD:Message::9aa72b99-774f-4eb7-b39e-5e1e0b1d7920:LOC</ns2:RequestMessageRef>
+            </ServiceDeliveryInfo>
+            <Notification>
+                <ns2:EstimatedTimetableDelivery version="2.0:FR-IDF-2.4">
+                    <ns2:ResponseTimestamp>2022-11-15T15:15:33.400+01:00</ns2:ResponseTimestamp>
+                    <ns2:SubscriberRef>NAVITIA</ns2:SubscriberRef>
+                    <ns2:SubscriptionRef>NAVITIA:Subscription:C01739:LOC</ns2:SubscriptionRef>
+                    <ns2:Status>true</ns2:Status>
+                    <ns2:EstimatedJourneyVersionFrame>
+                        <ns2:RecordedAtTime>2022-11-15T15:15:00.000+01:00</ns2:RecordedAtTime>
+                        <ns2:VersionRef>2.0:FR-IDF-2.4</ns2:VersionRef>
+                        <ns2:EstimatedVehicleJourney>
+                            <ns2:LineRef>STIF:Line::C01739:</ns2:LineRef>
+                            <ns2:DirectionRef>OUTBOUND</ns2:DirectionRef>
+                            <ns2:FramedVehicleJourneyRef>
+                                <ns2:DataFrameRef>any</ns2:DataFrameRef>
+                                <ns2:DatedVehicleJourneyRef>SNCF_ACCES_CLOUD:VehicleJourney::83e1bc5e-a5e4-499d-bfc0-407ea4d99d70:LOC</ns2:DatedVehicleJourneyRef>
+                            </ns2:FramedVehicleJourneyRef>
+                            <ns2:JourneyPatternRef>SNCF_ACCES_CLOUD:JourneyPattern::VERN:LOC</ns2:JourneyPatternRef>
+                            <ns2:JourneyPatternName>VERN</ns2:JourneyPatternName>
+                            <ns2:VehicleMode>rail</ns2:VehicleMode>
+                            <ns2:PublishedLineName>J</ns2:PublishedLineName>
+                            <ns2:OriginRef>STIF:StopArea:SP:58566:</ns2:OriginRef>
+                            <ns2:OriginName>Paris Saint-Lazare</ns2:OriginName>
+                            <ns2:DestinationRef>STIF:StopArea:SP:59038:</ns2:DestinationRef>
+                            <ns2:DestinationName>Vernon - Giverny</ns2:DestinationName>
+                            <ns2:VehicleJourneyName>130929</ns2:VehicleJourneyName>
+                            <ns2:OriginAimedDepartureTime>2022-11-15T17:21:00.000+01:00</ns2:OriginAimedDepartureTime>
+                            <ns2:DestinationAimedArrivalTime>2022-11-15T18:25:00.000+01:00</ns2:DestinationAimedArrivalTime>
+                            <ns2:TrainNumbers>
+                                <ns2:TrainNumberRef>130929</ns2:TrainNumberRef>
+                            </ns2:TrainNumbers>
+                            <ns2:EstimatedCalls>
+                                <ns2:EstimatedCall>
+                                    <ns2:StopPointRef>STIF:StopPoint:Q:41194:</ns2:StopPointRef>
+                                    <ns2:Order>1</ns2:Order>
+                                    <ns2:StopPointName>Gare Saint-Lazare</ns2:StopPointName>
+                                    <ns2:DestinationDisplay>Gare de Vernon</ns2:DestinationDisplay>
+                                    <ns2:ArrivalStatus>onTime</ns2:ArrivalStatus>
+                                    <ns2:ArrivalPlatformName>unknown</ns2:ArrivalPlatformName>
+                                    <ns2:ArrivalBoardingActivity>noAlighting</ns2:ArrivalBoardingActivity>
+                                    <ns2:AimedDepartureTime>2022-11-15T17:21:00.000+01:00</ns2:AimedDepartureTime>
+                                    <ns2:ExpectedDepartureTime>2022-11-15T17:21:00.000+01:00</ns2:ExpectedDepartureTime>
+                                    <ns2:DepartureStatus>onTime</ns2:DepartureStatus>
+                                    <ns2:DeparturePlatformName>unknown</ns2:DeparturePlatformName>
+                                    <ns2:DepartureBoardingActivity>boarding</ns2:DepartureBoardingActivity>
+                                </ns2:EstimatedCall>
+                                <ns2:EstimatedCall>
+                                    <ns2:StopPointRef>STIF:StopPoint:Q:472217:</ns2:StopPointRef>
+                                    <ns2:Order>2</ns2:Order>
+                                    <ns2:StopPointName>Mantes-la-Jolie</ns2:StopPointName>
+                                    <ns2:DestinationDisplay>Gare de Vernon</ns2:DestinationDisplay>
+                                    <ns2:AimedArrivalTime>2022-11-15T18:03:30.000+01:00</ns2:AimedArrivalTime>
+                                    <ns2:ExpectedArrivalTime>2022-11-15T18:03:30.000+01:00</ns2:ExpectedArrivalTime>
+                                    <ns2:ArrivalStatus>onTime</ns2:ArrivalStatus>
+                                    <ns2:ArrivalPlatformName>C</ns2:ArrivalPlatformName>
+                                    <ns2:ArrivalBoardingActivity>alighting</ns2:ArrivalBoardingActivity>
+                                    <ns2:AimedDepartureTime>2022-11-15T18:05:30.000+01:00</ns2:AimedDepartureTime>
+                                    <ns2:ExpectedDepartureTime>2022-11-15T18:05:30.000+01:00</ns2:ExpectedDepartureTime>
+                                    <ns2:DepartureStatus>onTime</ns2:DepartureStatus>
+                                    <ns2:DeparturePlatformName>C</ns2:DeparturePlatformName>
+                                    <ns2:DepartureBoardingActivity>boarding</ns2:DepartureBoardingActivity>
+                                </ns2:EstimatedCall>
+                                <ns2:EstimatedCall>
+                                    <ns2:StopPointRef>STIF:StopPoint:Q:472945:</ns2:StopPointRef>
+                                    <ns2:Order>3</ns2:Order>
+                                    <ns2:StopPointName>Rosny-sur-Seine</ns2:StopPointName>
+                                    <ns2:DestinationDisplay>Gare de Vernon</ns2:DestinationDisplay>
+                                    <ns2:AimedArrivalTime>2022-11-15T18:11:00.000+01:00</ns2:AimedArrivalTime>
+                                    <ns2:ExpectedArrivalTime>2022-11-15T18:11:00.000+01:00</ns2:ExpectedArrivalTime>
+                                    <ns2:ArrivalStatus>onTime</ns2:ArrivalStatus>
+                                    <ns2:ArrivalPlatformName>1</ns2:ArrivalPlatformName>
+                                    <ns2:ArrivalBoardingActivity>alighting</ns2:ArrivalBoardingActivity>
+                                    <ns2:AimedDepartureTime>2022-11-15T18:12:00.000+01:00</ns2:AimedDepartureTime>
+                                    <ns2:ExpectedDepartureTime>2022-11-15T18:12:00.000+01:00</ns2:ExpectedDepartureTime>
+                                    <ns2:DepartureStatus>onTime</ns2:DepartureStatus>
+                                    <ns2:DeparturePlatformName>1</ns2:DeparturePlatformName>
+                                    <ns2:DepartureBoardingActivity>boarding</ns2:DepartureBoardingActivity>
+                                </ns2:EstimatedCall>
+                                <ns2:EstimatedCall>
+                                    <ns2:StopPointRef>STIF:StopPoint:Q:470812:</ns2:StopPointRef>
+                                    <ns2:Order>4</ns2:Order>
+                                    <ns2:StopPointName>Bonnières</ns2:StopPointName>
+                                    <ns2:DestinationDisplay>Gare de Vernon</ns2:DestinationDisplay>
+                                    <ns2:AimedArrivalTime>2022-11-15T18:17:00.000+01:00</ns2:AimedArrivalTime>
+                                    <ns2:ExpectedArrivalTime>2022-11-15T18:17:00.000+01:00</ns2:ExpectedArrivalTime>
+                                    <ns2:ArrivalStatus>onTime</ns2:ArrivalStatus>
+                                    <ns2:ArrivalPlatformName>1</ns2:ArrivalPlatformName>
+                                    <ns2:ArrivalBoardingActivity>alighting</ns2:ArrivalBoardingActivity>
+                                    <ns2:AimedDepartureTime>2022-11-15T18:18:00.000+01:00</ns2:AimedDepartureTime>
+                                    <ns2:ExpectedDepartureTime>2022-11-15T18:18:00.000+01:00</ns2:ExpectedDepartureTime>
+                                    <ns2:DepartureStatus>onTime</ns2:DepartureStatus>
+                                    <ns2:DeparturePlatformName>1</ns2:DeparturePlatformName>
+                                    <ns2:DepartureBoardingActivity>boarding</ns2:DepartureBoardingActivity>
+                                </ns2:EstimatedCall>
+                                <ns2:EstimatedCall>
+                                    <ns2:StopPointRef>STIF:StopPoint:Q:471217:</ns2:StopPointRef>
+                                    <ns2:Order>5</ns2:Order>
+                                    <ns2:StopPointName>Vernon - Giverny</ns2:StopPointName>
+                                    <ns2:DestinationDisplay>Gare de Vernon</ns2:DestinationDisplay>
+                                    <ns2:AimedArrivalTime>2022-11-15T18:25:00.000+01:00</ns2:AimedArrivalTime>
+                                    <ns2:ExpectedArrivalTime>2022-11-15T18:25:00.000+01:00</ns2:ExpectedArrivalTime>
+                                    <ns2:ArrivalStatus>onTime</ns2:ArrivalStatus>
+                                    <ns2:ArrivalPlatformName>1</ns2:ArrivalPlatformName>
+                                    <ns2:ArrivalBoardingActivity>alighting</ns2:ArrivalBoardingActivity>
+                                    <ns2:DepartureStatus>onTime</ns2:DepartureStatus>
+                                    <ns2:DeparturePlatformName>1</ns2:DeparturePlatformName>
+                                    <ns2:DepartureBoardingActivity>noBoarding</ns2:DepartureBoardingActivity>
+                                </ns2:EstimatedCall>
+                            </ns2:EstimatedCalls>
+                        </ns2:EstimatedVehicleJourney>
+                    </ns2:EstimatedJourneyVersionFrame>
+                </ns2:EstimatedTimetableDelivery>
+            </Notification>
+            <SiriExtension/>
+        </ns6:NotifyEstimatedTimetable>
+    </soap:Body>
+</soap:Envelope>
