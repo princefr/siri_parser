@@ -2,7 +2,6 @@ use std::fs;
 
 use quote::ToTokens;
 use serde::{Deserialize, Serialize};
-use serde_xml_rs::from_str;
 
 use super::body::Body;
 
@@ -20,13 +19,13 @@ impl Envelope {
 
     pub fn from_file(file_path: &str) -> Result<Self, Box<dyn std::error::Error>> {
         let content = fs::read_to_string(file_path)?;
-        let envelope = from_str(&content)?;
+        let envelope = quick_xml::de::from_str(&content)?;
         Ok(envelope)
     }
 
 
     pub fn from_str(xml_str: &str) -> Result<Self, Box<dyn std::error::Error>> {
-        let envelope = from_str(xml_str)?;
+        let envelope = quick_xml::de::from_str(xml_str)?;
         Ok(envelope)
     }
 }
