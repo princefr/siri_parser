@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <NotifyStopMonitoring xmlns="http://wsdl.siri.org.uk">
+         <ServiceDeliveryInfo xmlns="">
+            <ResponseTimestamp xmlns="http://www.siri.org.uk/siri">2024-04-04T13:02:02.175907Z</ResponseTimestamp>
+            <ProducerRef xmlns="http://www.siri.org.uk/siri">OKI</ProducerRef>
+         </ServiceDeliveryInfo>
+         <Notification xmlns="">
+            <siri:StopMonitoringDelivery xmlns:siri="http://www.siri.org.uk/siri" version="2.0">
+               <siri:ResponseTimestamp>2024-04-04T13:02:02.175907Z</siri:ResponseTimestamp>
+               <siri:RequestMessageRef/>
+               <MonitoredStopVisit xmlns="http://www.siri.org.uk/siri">
+                  <RecordedAtTime>2024-04-04T12:41:15Z</RecordedAtTime>
+                  <ItemIdentifier>5588011-LECHEN-E</ItemIdentifier>
+                  <MonitoringRef>MOBIITI:Quay:24999</MonitoringRef>
+                  <MonitoredVehicleJourney>
+                     <LineRef>ALM:Line:08:LOC</LineRef>
+                     <FramedVehicleJourneyRef>
+                        <DataFrameRef>5588011</DataFrameRef>
+                        <DatedVehicleJourneyRef>ALM:VehicleJourney:5588011</DatedVehicleJourneyRef>
+                     </FramedVehicleJourneyRef>
+                     <DestinationRef/>
+                     <DestinationName/>
+                     <Monitored>true</Monitored>
+                     <MonitoredCall>
+                        <StopPointRef>MOBIITI:Quay:24999</StopPointRef>
+                        <Order>46</Order>
+                        <AimedArrivalTime>2024-04-04T13:22:40Z</AimedArrivalTime>
+                        <ExpectedArrivalTime>2024-04-04T13:22:40Z</ExpectedArrivalTime>
+                        <AimedDepartureTime>2024-04-04T13:22:40Z</AimedDepartureTime>
+                        <ExpectedDepartureTime>2024-04-04T13:22:40Z</ExpectedDepartureTime>
+                     </MonitoredCall>
+                  </MonitoredVehicleJourney>
+               </MonitoredStopVisit>
+               <MonitoredStopVisit xmlns="http://www.siri.org.uk/siri">
+                  <RecordedAtTime>2024-04-04T12:41:15Z</RecordedAtTime>
+                  <ItemIdentifier>5588012-LECHEN-E</ItemIdentifier>
+                  <MonitoringRef>MOBIITI:Quay:24999</MonitoringRef>
+                  <MonitoredVehicleJourney>
+                     <LineRef>ALM:Line:08:LOC</LineRef>
+                     <FramedVehicleJourneyRef>
+                        <DataFrameRef>5588012</DataFrameRef>
+                        <DatedVehicleJourneyRef>ALM:VehicleJourney:5588012</DatedVehicleJourneyRef>
+                     </FramedVehicleJourneyRef>
+                     <DestinationRef/>
+                     <DestinationName/>
+                     <Monitored>true</Monitored>
+                     <MonitoredCall>
+                        <StopPointRef>MOBIITI:Quay:24999</StopPointRef>
+                        <Order>46</Order>
+                        <AimedArrivalTime>2024-04-04T13:40:40Z</AimedArrivalTime>
+                        <ExpectedArrivalTime>2024-04-04T13:40:40Z</ExpectedArrivalTime>
+                        <AimedDepartureTime>2024-04-04T13:40:40Z</AimedDepartureTime>
+                        <ExpectedDepartureTime>2024-04-04T13:40:40Z</ExpectedDepartureTime>
+                     </MonitoredCall>
+                  </MonitoredVehicleJourney>
+               </MonitoredStopVisit>
+               <MonitoredStopVisit xmlns="http://www.siri.org.uk/siri">
+                  <RecordedAtTime>2024-04-04T12:41:15Z</RecordedAtTime>
+                  <ItemIdentifier>5587989-LECHEN-E</ItemIdentifier>
+                  <MonitoringRef>MOBIITI:Quay:24999</MonitoringRef>
+                  <MonitoredVehicleJourney>
+                     <LineRef>ALM:Line:08:LOC</LineRef>
+                     <FramedVehicleJourneyRef>
+                        <DataFrameRef>5587989</DataFrameRef>
+                        <DatedVehicleJourneyRef>ALM:VehicleJourney:5587989</DatedVehicleJourneyRef>
+                     </FramedVehicleJourneyRef>
+                     <DestinationRef/>
+                     <DestinationName/>
+                     <Monitored>true</Monitored>
+                     <MonitoredCall>
+                        <StopPointRef>MOBIITI:Quay:24999</StopPointRef>
+                        <Order>46</Order>
+                        <AimedArrivalTime>2024-04-04T13:04:40Z</AimedArrivalTime>
+                        <ExpectedArrivalTime>2024-04-04T13:04:40Z</ExpectedArrivalTime>
+                        <AimedDepartureTime>2024-04-04T13:04:40Z</AimedDepartureTime>
+                        <ExpectedDepartureTime>2024-04-04T13:04:40Z</ExpectedDepartureTime>
+                     </MonitoredCall>
+                  </MonitoredVehicleJourney>
+               </MonitoredStopVisit>
+               <MonitoredStopVisit xmlns="http://www.siri.org.uk/siri">
+                  <RecordedAtTime>2024-04-04T12:41:15Z</RecordedAtTime>
+                  <ItemIdentifier>5588058-LECHEN-E</ItemIdentifier>
+                  <MonitoringRef>MOBIITI:Quay:24999</MonitoringRef>
+                  <MonitoredVehicleJourney>
+                     <LineRef>ALM:Line:08:LOC</LineRef>
+                     <FramedVehicleJourneyRef>
+                        <DataFrameRef>5588058</DataFrameRef>
+                        <DatedVehicleJourneyRef>ALM:VehicleJourney:5588058</DatedVehicleJourneyRef>
+                     </FramedVehicleJourneyRef>
+                     <DestinationRef/>
+                     <DestinationName/>
+                     <Monitored>true</Monitored>
+                     <MonitoredCall>
+                        <StopPointRef>MOBIITI:Quay:24999</StopPointRef>
+                        <Order>55</Order>
+                        <AimedArrivalTime>2024-04-04T12:48:54Z</AimedArrivalTime>
+                        <ExpectedArrivalTime>2024-04-04T12:48:54Z</ExpectedArrivalTime>
+                        <AimedDepartureTime>2024-04-04T12:48:54Z</AimedDepartureTime>
+                        <ExpectedDepartureTime>2024-04-04T12:48:54Z</ExpectedDepartureTime>
+                     </MonitoredCall>
+                  </MonitoredVehicleJourney>
+               </MonitoredStopVisit>
+            </siri:StopMonitoringDelivery>
+         </Notification>
+         <SiriExtension xmlns=""/>
+      </NotifyStopMonitoring>
+   </soapenv:Body>
+</soapenv:Envelope>
