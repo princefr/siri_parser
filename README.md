@@ -52,7 +52,7 @@ Structures are held in a structures folder.
 Enums are held in a enums folder.
 Services offered by the parser are held in services folder.
 
-``
+```
 ---siri_parser
 ---------src
 -------------enums
@@ -68,7 +68,7 @@ Services offered by the parser are held in services folder.
 --------------- estimated_calls.rs
 --------------- recorded_calls.rs
 
-``
+```
 
 
 Examples :
