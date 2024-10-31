@@ -2,7 +2,6 @@
 name = "go_generation_derive"
 version = "0.1.0"
 edition = "2021"
-build = "build.rs"
 
 [dependencies]
 syn = { version = "2.0.85", features = ["full"] }
