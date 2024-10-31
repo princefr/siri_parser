@@ -1,4 +1,4 @@
-package main
+package siri_parser
 
 
 import "unsafe"
@@ -175,13 +175,8 @@ func main() {
    </soapenv:Body>
 </soapenv:Envelope>
 `
-	result, err := ParseStr(input)
+	_, err := ParseStr(input)
    if err != nil {
       fmt.Printf("Parse error: %s\n", err.Error())
    }
-	if result != nil {
-		fmt.Printf("Parse result: %s\n", result)
-	} else {
-		fmt.Println("Parsing failed")
-	}
 }
