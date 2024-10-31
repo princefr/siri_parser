@@ -3,7 +3,7 @@
 #
 #    maturin generate-ci github -m siri_parser_python/Cargo.toml
 #
-name: CI
+name: Python CI
 
 on:
   push:

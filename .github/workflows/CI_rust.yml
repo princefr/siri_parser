@@ -1,4 +1,4 @@
-name: Test Rust Package
+name: Rust CI
 
 on:
     push:
