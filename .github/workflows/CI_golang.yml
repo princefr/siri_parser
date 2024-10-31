@@ -25,10 +25,13 @@ jobs:
           go mod verify
 
       - name: Build
-        run: go build -v ./...
+        run: |
+          cd go
+          go build -v ./...
 
       - name: Run tests
-        run: go test -v ./...
+        run: 
+          cd go && go test -v ./...
 
   publish:
     needs: build-and-test
