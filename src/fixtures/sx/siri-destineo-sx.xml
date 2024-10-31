@@ -1,0 +1,3139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <NotifySituationExchange xmlns="http://wsdl.siri.org.uk">
+         <ServiceDeliveryInfo xmlns="">
+            <ResponseTimestamp xmlns="http://www.siri.org.uk/siri">2024-10-17T14:07:59.164775Z</ResponseTimestamp>
+            <ProducerRef xmlns="http://www.siri.org.uk/siri">OKI</ProducerRef>
+         </ServiceDeliveryInfo>
+         <Notification xmlns="">
+            <siri:SituationExchangeDelivery xmlns:siri="http://www.siri.org.uk/siri" version="2.0">
+               <siri:ResponseTimestamp>2024-10-17T14:07:59.164775Z</siri:ResponseTimestamp>
+               <siri:RequestMessageRef/>
+               <Situations xmlns="http://www.siri.org.uk/siri">
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>f48d0b90-15a1-4751-8c81-4d3ecce3279f</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">LAVAL</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-16T06:30:00Z</StartTime>
+                        <EndTime>2024-10-31T20:00:00Z</EndTime>
+                     </ValidityPeriod>
+                     <EquipmentReason>constructionWork</EquipmentReason>
+                     <Keywords/>
+                     <Summary xml:lang="FR">Déviation Ligne I - Rue St Mélaine</Summary>
+                     <Description xml:lang="FR">En raison de travaux de voirie rue St Mélaine, les arrêts St Mélaine et Pressoir ne seront pas desservis du Lundi 21 Octobre au Jeudi 31 Octobre.Arrêt le plus proche : Marronniers</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>LVA:Line:I:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>0e8f61e1-4fe7-4db2-9984-458148f8c78d</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">LAVAL</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-10T14:30:00Z</StartTime>
+                        <EndTime>2024-10-18T20:00:00Z</EndTime>
+                     </ValidityPeriod>
+                     <EquipmentReason>constructionWork</EquipmentReason>
+                     <Keywords/>
+                     <Summary xml:lang="FR">Déviation Ligne D / Bd Jourdan</Summary>
+                     <Description xml:lang="FR">En raison de travaux de voirie bd Jourdan, les arrêts : - Pavement en direction des Faluères- Piscine, Faidherbe, Pavement, Senelle en direction de l'Espace Mayenne Ne seront pas desservis du Lundi 14 Octobre au Vendredi 18 Octobre.Arrêts les plus proches : Vers Faluères : Arrêt provisoire à côté de l'ancien abribusVers Espace Mayenne : Bonaparte ou Lauriers</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>LVA:Line:D:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>61fd583b-368d-4829-bc5b-f966acb36e21</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">LAVAL</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-16T06:15:00Z</StartTime>
+                        <EndTime>2024-10-18T21:00:00Z</EndTime>
+                     </ValidityPeriod>
+                     <MiscellaneousReason>demonstration</MiscellaneousReason>
+                     <Keywords/>
+                     <Summary xml:lang="FR">Déviation Ligne B / Secteurs Pommeraies - Vignes</Summary>
+                     <Description xml:lang="FR">En raison du match Laval - Dunkerque, les arrêts Pommeraies, Carrés, Le Basser, Coubertin ne seront pas desservis Vendredi 18 Octobre à partir de 18h.Arrêts les plus proches : Bienvenu, Centre Universitaire</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>LVA:Line:B:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>ccc536ff-3448-4de5-ba8f-138a8b3d1f11</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">LAVAL</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-04-24T13:15:00Z</StartTime>
+                        <EndTime>2024-10-26T19:00:00Z</EndTime>
+                     </ValidityPeriod>
+                     <EquipmentReason>constructionWork</EquipmentReason>
+                     <Keywords/>
+                     <Summary xml:lang="FR">Déviation Ligne F / Arrêt "Route du Mans"</Summary>
+                     <Description xml:lang="FR">En raison de travaux de voirie avenue de Chanzy, l'arrêt "Route du Mans" ne sera pas desservi à partir du Lundi 29 Avril.Arrêt le plus proche : Pavement</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>LVA:Line:F:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>0c3072e0-6b65-4d80-812d-c127facfea58</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">LAVAL</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-10T14:15:00Z</StartTime>
+                        <EndTime>2024-10-18T20:00:00Z</EndTime>
+                     </ValidityPeriod>
+                     <EquipmentReason>constructionWork</EquipmentReason>
+                     <Keywords/>
+                     <Summary xml:lang="FR">Déviation Ligne K / Bd de l'Industrie - Bd Jourdan</Summary>
+                     <Description xml:lang="FR">En raison de travaux de voirie bd Jourdan / Bd de l'Industrie, les arrêts Piscine, Faidherbe, Glycines, Industrie, Marronniers ne seront pas desservis du Lundi 14 Octobre au Vendredi 18 Octobre.Arrêts les plus proches : Cité Administrative ou Bienvenu</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>LVA:Line:K:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>RTA:21349901</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">CHOLET</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-09-30T06:00:00Z</StartTime>
+                        <EndTime>2024-11-30T22:59:00Z</EndTime>
+                     </ValidityPeriod>
+                     <EquipmentReason>constructionWork</EquipmentReason>
+                     <Severity>normal</Severity>
+                     <Keywords/>
+                     <Summary xml:lang="fr">Travaux Boulevard Hérault</Summary>
+                     <Description xml:lang="fr">En raison de travaux boulevard Hérault, la ligne 6 en direction de Langeais sera déviée à partir du lundi 30/09/2024 pour une durée de 2 mois.Larrêt "Molière" ne sera pas desservi, merci de vous reporter à l'arrêt "Pont de Pierre".</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>CAC:Line:22:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>RTA:21469925</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">CHOLET</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-10T04:00:00Z</StartTime>
+                        <EndTime>2024-10-31T22:59:00Z</EndTime>
+                     </ValidityPeriod>
+                     <EquipmentReason>constructionWork</EquipmentReason>
+                     <Severity>normal</Severity>
+                     <Keywords/>
+                     <Summary xml:lang="fr">ligne 1 en direction d'Arcole déviée jusqu'au jeudi 31 Octobre 2024</Summary>
+                     <Description xml:lang="fr">En raison de travaux rue Bordage chapeau, la ligne 1 en direction d'Arcole sera déviée, l'arrêt " Leclerc" ne sera pas desservi, merci de vous reporter à l'arrêt "Bon Pasteur".</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <NetworkRef>CAC:Network:CHOLETBUS:LOC</NetworkRef>
+                           </AffectedNetwork>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>CAC:Line:1:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>RTA:21511316</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">CHOLET</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-14T04:00:00Z</StartTime>
+                        <EndTime>2024-10-18T21:59:00Z</EndTime>
+                     </ValidityPeriod>
+                     <EquipmentReason>constructionWork</EquipmentReason>
+                     <Severity>normal</Severity>
+                     <Keywords/>
+                     <Summary xml:lang="fr">Ligne 4 vers Plessis déviée uniquement sur lhoraire de 7h49 du 14 au 18/10/2024</Summary>
+                     <Description xml:lang="fr">En raison de travaux la ligne 4 en direction de Plessis sera déviée uniquement sur lhoraire de 7h49 du 14 au 18 Octobre 2024., larrêt « Europe » ne sera pas desservi, merci de vous reporter à larrêt "Encyclopédie".</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <NetworkRef>CAC:Network:CHOLETBUS:LOC</NetworkRef>
+                           </AffectedNetwork>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>CAC:Line:2:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>RTA:21516245</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">CHOLET</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-18T12:00:00Z</StartTime>
+                        <EndTime>2024-10-25T21:59:00Z</EndTime>
+                     </ValidityPeriod>
+                     <EquipmentReason>constructionWork</EquipmentReason>
+                     <Severity>normal</Severity>
+                     <Keywords/>
+                     <Summary xml:lang="fr">Ligne 1a en direction du Cormier déviée du 18/10 à 14h jusqu' au 25 Octobre 2024</Summary>
+                     <Description xml:lang="fr">En raison de travaux Boulevard du Cormier du 18 au 25/10/2024 , les arrêts " Chevreul" et "Appert" ne seront pas desservis à partir de 14h le 18/10, merci de vous reporter à l'arrêt "Les Noires".</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <NetworkRef>CAC:Network:CHOLETBUS:LOC</NetworkRef>
+                           </AffectedNetwork>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>CAC:Line:23:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>RTA:21086636</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">CHOLET</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-08-29T06:10:00Z</StartTime>
+                        <EndTime>2024-10-31T22:59:00Z</EndTime>
+                     </ValidityPeriod>
+                     <EquipmentReason>constructionWork</EquipmentReason>
+                     <Severity>normal</Severity>
+                     <Keywords/>
+                     <Summary xml:lang="fr">arrêt "Centre" à tigné reporté jusqu'au 31/10/2024 à l'arrêt provisoire Place de la Treille</Summary>
+                     <Description xml:lang="fr">En raison des travaux place de la Mairie de Tigné avec la mise en place du nouveau quai bus, l'arrêt "Centre" sera déplacé à l'arrêt provisoire situé place de La Treille pour la ligne 13 ainsi que la ligne scolaire 64 jusquau 31/10/24.</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>CAC:Line:10:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>RTA:21210829</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">CHOLET</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-01T04:00:00Z</StartTime>
+                        <EndTime>2024-10-25T21:59:00Z</EndTime>
+                     </ValidityPeriod>
+                     <EquipmentReason>constructionWork</EquipmentReason>
+                     <Severity>normal</Severity>
+                     <Keywords/>
+                     <Summary xml:lang="fr">Déviation Ligne 1 en direction d'Arcole - Les arrêts "Bonnezeaux" - "Anjou" non desservis du 1 au 25/10/2024</Summary>
+                     <Description xml:lang="fr">En raison de travaux la ligne 1 en direction d'Arcole sera déviée Rue d'Anjou du 1 au 25 octobre 2024, les arrêts "Bonnezeaux" et "Anjou" ne seront pas desservis. Merci de vous reporter à l'arrêt " Louisière"</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <NetworkRef>CAC:Network:CHOLETBUS:LOC</NetworkRef>
+                           </AffectedNetwork>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>CAC:Line:1:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>RTA:21350006</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">CHOLET</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-09-30T06:00:00Z</StartTime>
+                        <EndTime>2024-11-30T22:59:00Z</EndTime>
+                     </ValidityPeriod>
+                     <EquipmentReason>constructionWork</EquipmentReason>
+                     <Severity>normal</Severity>
+                     <Keywords/>
+                     <Summary xml:lang="fr">Travaux Boulevard Hérault</Summary>
+                     <Description xml:lang="fr">En raison de travaux boulevard Hérault à Cholet les lignes périurbaines sont déviées à partir du lundi 30 septembre pour une durée de 2 mois au départ de Cholet seulement ; pas de modification en direction de Cholet. Les lignes seront déviées par le boulevard Guy Chouteau et le boulevard du docteur Roux, ce qui pourra engendrer quelques retards.Merci de votre compréhension.</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <NetworkRef>CAC:Network:CHOLETBUS:LOC</NetworkRef>
+                           </AffectedNetwork>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>CAC:Line:11:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>CAC:Line:12:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>CAC:Line:13:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>CAC:Line:14:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>CAC:Line:8:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>CAC:Line:9:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>CAC:Line:31:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>CAC:Line:10:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>RTA:21351049</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">CHOLET</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-09-30T06:00:00Z</StartTime>
+                        <EndTime>2024-11-30T22:59:00Z</EndTime>
+                     </ValidityPeriod>
+                     <EquipmentReason>constructionWork</EquipmentReason>
+                     <Severity>normal</Severity>
+                     <Keywords/>
+                     <Summary xml:lang="fr">Travaux Boulevard Hérault</Summary>
+                     <Description xml:lang="fr">En raison de travaux boulevard Hérault, la ligne 6a en direction de Bois Lavau  sera déviée à partir du lundi 30/09/2024 pour une durée de 2 mois. Les arrêts "Molière" et "Pont de Pierre" ne seront pas desservis, merci de vous reporter à l'arrêt "République".</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>CAC:Line:19:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>RTA:21196161</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">CHOLET</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-09-09T08:02:00Z</StartTime>
+                        <EndTime>2024-10-18T21:59:00Z</EndTime>
+                     </ValidityPeriod>
+                     <MiscellaneousReason>undefinedProblem</MiscellaneousReason>
+                     <Severity>verySlight</Severity>
+                     <Keywords/>
+                     <Summary xml:lang="fr">Arrêt Diderot vers Musée Textile et Mode déplacé</Summary>
+                     <Description xml:lang="fr">A compter du mercredi 11/09/24, l'arrêt Diderot vers Musée Textile et Mode sera déplacé en amont de 50 mètres face au point d'arrêt Diderot en direction du Plessis.</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>CAC:Line:2:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>alert:66df06661b8d46e3a447af1e</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">SABLE_SUR_SARTHE</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-09-09T00:00:00Z</StartTime>
+                        <EndTime>2024-11-15T23:59:00Z</EndTime>
+                     </ValidityPeriod>
+                     <EquipmentReason>constructionWork</EquipmentReason>
+                     <Keywords/>
+                     <Summary xml:lang="FR">Arrêts déplacés</Summary>
+                     <Description xml:lang="FR">En raison de travaux à la mairie, du 16 septembre au 15 novembre, l'arrêt "Mairie, rue Michel Vielle" est déplacé au 14 rue Michel Vielle.Nous vous remercions de votre compréhension.</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>VSS:Line:313:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>31563006d197b8b99b4d1a9e414e407264a06227</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">NANTES</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-16T17:00:00Z</StartTime>
+                        <EndTime>2024-10-17T23:59:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-10-16T00:00:00Z</StartTime>
+                        <EndTime>2024-10-17T23:59:00Z</EndTime>
+                     </PublicationWindow>
+                     <Keywords/>
+                     <Summary>Inondations secteur Bac de Couëron</Summary>
+                     <Description>Info trafic à 17h00Inondations secteur Bac de Couëron, la ligne 71 effectue son terminus à l'arrêt Couëron Océan- arrêts Mouettes, Port Launay et Bac de Couëron non desservis I</Description>
+                     <Affects>
+                        <StopPoints>
+                           <AffectedStopPoint>
+                              <StopPointRef>MOET1</StopPointRef>
+                           </AffectedStopPoint>
+                           <AffectedStopPoint>
+                              <StopPointRef>MOET2</StopPointRef>
+                           </AffectedStopPoint>
+                           <AffectedStopPoint>
+                              <StopPointRef>PLNA2</StopPointRef>
+                           </AffectedStopPoint>
+                           <AffectedStopPoint>
+                              <StopPointRef>OCEA1</StopPointRef>
+                           </AffectedStopPoint>
+                           <AffectedStopPoint>
+                              <StopPointRef>PLNA1</StopPointRef>
+                           </AffectedStopPoint>
+                           <AffectedStopPoint>
+                              <StopPointRef>CBAC1</StopPointRef>
+                           </AffectedStopPoint>
+                        </StopPoints>
+                     </Affects>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>b5f2c982fad410c3363ff03345b252471367ace3</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">NANTES</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-14T07:00:00Z</StartTime>
+                        <EndTime>2024-10-18T20:00:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-10-17T00:00:00Z</StartTime>
+                        <EndTime>2024-10-18T20:00:00Z</EndTime>
+                     </PublicationWindow>
+                     <Keywords/>
+                     <Summary>Travaux rue du Moulin des Landes - Ste LUCE S/LOIRE</Summary>
+                     <Description>Du lundi 14 au vendredi 18 octobreTravaux rue du Moulin des Landes à Ste Luce, les lignes scolaires 107 et 147 sont déviées dans les 2 sens entre les arrêts Mazures et Mouloins des LandesOù prendre votre bus :&gt; Vers Bournière- arrêt Moulin des Landes reporté à l'arrêt provisoire rue de Beau Soleil&gt; Vers Reinetière / Toutes Aides- arrêt Moulin des Landes reporté à l'arrêt provisoire rue de Beau Soleil- arrêt Mazure reporté à l'arrêt provisoire situé rue du Moulin des Landes 24/719</Description>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>d7979c7b38bac0d86bffd61f2f908753d48ec44e</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">NANTES</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-09-30T05:00:00Z</StartTime>
+                        <EndTime>2024-10-17T23:00:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-10-17T00:00:00Z</StartTime>
+                        <EndTime>2024-10-17T23:00:00Z</EndTime>
+                     </PublicationWindow>
+                     <Keywords/>
+                     <Summary>Travaux rue Jean Poulain à Nantes</Summary>
+                     <Description>Du lundi 30 septembre au jeudi 17 octobreTravaux rue Jean Poulain à Nantes, l'itinéraire de la ligne 26 est modifié, dans les 2 sens.Où prendre votre busLigne 26 déviée entre les arrêts Tribunes et Fresche Blanc&gt; vers Jonelière- arrêt Vincent Scotto reporté à l'arrêt Fantaisie de la ligne 86- arrêt Bourgeonnière reportés à l'arrêt Fresche Blanc&gt; vers Hôtel de Région- arrêt Bourgeonnière reportés à l'arrêt Fresche Blanc- arrêt Vincent Scotto reporté à l'arrêt TribunesItinéraire modifié de la ligne 2624/682</Description>
+                     <Affects>
+                        <StopPoints>
+                           <AffectedStopPoint>
+                              <StopPointRef>VSCO4</StopPointRef>
+                           </AffectedStopPoint>
+                           <AffectedStopPoint>
+                              <StopPointRef>VSCO2</StopPointRef>
+                           </AffectedStopPoint>
+                        </StopPoints>
+                     </Affects>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>cc1735e2f0aab527e3db9ca6849d69857a3c4f94</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">NANTES</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-16T09:38:00Z</StartTime>
+                        <EndTime>2024-10-17T23:59:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-10-16T00:00:00Z</StartTime>
+                        <EndTime>2024-10-17T23:59:00Z</EndTime>
+                     </PublicationWindow>
+                     <Keywords/>
+                     <Summary>Panne à Moinard</Summary>
+                     <Description>Info trafic à 9h37:Véhicule en panne à Moinard. Ligne 91 déviée entre les arrêts Audubon et Théatre dans les deux sens de circulation.   I</Description>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>418918a9b65efa0490c63f26fafeaecfd801af71</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">NANTES</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-09T05:00:00Z</StartTime>
+                        <EndTime>2024-11-08T23:59:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-10-17T00:00:00Z</StartTime>
+                        <EndTime>2024-11-08T23:59:00Z</EndTime>
+                     </PublicationWindow>
+                     <Keywords/>
+                     <Summary>Travaux à l'arrêt Lemoine</Summary>
+                     <Description>En raison de travaux, l'arrêt Lemoine vers Bd de Doulon/MF Bellevue est reporté à l'arrêt Tortière, pour une durée indéterminée.&gt; vers Bd de Doulon/Gare de Chantenay- arrêt Lemoine reporté à l'arrêt Tortière I</Description>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>a1107127c8bd59b4df6aea6a9b63dad82dbde61e</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">NANTES</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-16T16:15:00Z</StartTime>
+                        <EndTime>2024-10-17T23:59:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-10-16T00:00:00Z</StartTime>
+                        <EndTime>2024-10-17T23:59:00Z</EndTime>
+                     </PublicationWindow>
+                     <Keywords/>
+                     <Summary>Véhicule gênant à Neruda</Summary>
+                     <Description>Info trafic à 16h15 :Véhicule gênant à Néruda, les lignes 23 et 59 sont déviées, uniquement vers MF Bellevue, entre les arrêts Neruda et MF Bellevue. I</Description>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>5d718e78b7483cba2973f0b8312de08722a5a9a5</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">NANTES</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-03-22T05:00:00Z</StartTime>
+                        <EndTime>2024-10-31T19:00:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-10-17T00:00:00Z</StartTime>
+                        <EndTime>2024-10-31T19:00:00Z</EndTime>
+                     </PublicationWindow>
+                     <Keywords/>
+                     <Summary>Travaux rue Charles Roger à Nantes</Summary>
+                     <Description>Du vendredi 22 mars au vendredi 30 août,prolongés jusqu'au jeudi 31 octobreTravaux rue Charles Roger à Nantes, la ligne C6 est déviée dans les deux sens, entre les arrêts Vincent Auriol et Le Nain.Où prendre votre bus &gt; vers Hermeland - Arrêt St-Laurent reporté à l'arrêt Raoul Dufy de la ligne C3- Arrêt Perron reporté à l'arrêt Colonac de la ligne C20&gt; vers Chantrerie Grandes Ecoles - Arrêt Perron reporté à l'arrêt Colonac de la ligne C20- Arrêt St-Laurent reporté à l'arrêt Raoul Dufy de la ligne C3Itinéraire modifié de la ligne C624/143</Description>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>a2fd8881c6d7db42415ff966c6aa6ab646517bc9</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">NANTES</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-17T09:18:00Z</StartTime>
+                        <EndTime>2024-10-18T23:59:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-10-17T00:00:00Z</StartTime>
+                        <EndTime>2024-10-18T23:59:00Z</EndTime>
+                     </PublicationWindow>
+                     <Keywords/>
+                     <Summary>Circulation bd de Doulon - Nantes</Summary>
+                     <Description>Info trafic à 9h18 :Circulation importante bd de Doulon à Nantes, la ligne 12 est déviée, uniquement vers Jules Verne, entre les arrêts Mitrie et Grand Blottereau.- arrêts Toutes AIdes, Mairie de Doulon et Perrines reportés à l'arrêt Grand Blottereau</Description>
+                     <Affects>
+                        <StopPoints>
+                           <AffectedStopPoint>
+                              <StopPointRef>TAID2</StopPointRef>
+                           </AffectedStopPoint>
+                           <AffectedStopPoint>
+                              <StopPointRef>PRNE1</StopPointRef>
+                           </AffectedStopPoint>
+                           <AffectedStopPoint>
+                              <StopPointRef>MDOU3</StopPointRef>
+                           </AffectedStopPoint>
+                        </StopPoints>
+                     </Affects>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>568b24000eb3f954d66974841a0d7ab48bcf7179</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">NANTES</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-09-30T05:00:00Z</StartTime>
+                        <EndTime>2024-12-07T02:00:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-10-17T00:00:00Z</StartTime>
+                        <EndTime>2024-12-07T02:00:00Z</EndTime>
+                     </PublicationWindow>
+                     <Keywords/>
+                     <Summary>Travaux rue de Bel Air - Carquefou</Summary>
+                     <Description>Du lundi 30 septembre au vendredi 6 décembre 2024Travaux rue de Bel Air à Carquefou, la ligne 85 est déviée, dans les 2 sens, entre les arrêts Danemark et Sercel.Où prendre votre bus&gt; vers Haluchère- Arrêt Moinet reporté à l'arrêt Moinet de la ligne 77 (vers Haluchère)&gt; vers Souchais- Arrêt Moinet reporté à l'arrêt Moinet de la ligne 77 (vers Sables d'Or) 24/687</Description>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>ee5ba9b6678d9b900623e8dfb38846f6bee4a4ac</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">NANTES</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-06-17T05:00:00Z</StartTime>
+                        <EndTime>2024-10-31T21:00:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-10-17T00:00:00Z</StartTime>
+                        <EndTime>2024-10-31T21:00:00Z</EndTime>
+                     </PublicationWindow>
+                     <Keywords/>
+                     <Summary>Travaux bd Benoni Goullin - Nantes</Summary>
+                     <Description>Info trafic le vendredi 30 août : prolongation des travaux jusqu'au jeudi 31 octobre inclus. Du lundi 17 juin au mardi 3 septembreTravaux bd Benoni Goullin à Nantes, la ligne 26 est déviée entre les arrêts République et Mangin, dans les 2 sens.Où prendre votre bus :vers Hôtel de Région- arrêt Benoni Goullin reporté à l'arrêt Mangin- arrêt Gustave Roch reporté à l'arrêt provisoire placé en face de l'arrêt vers Jonelièrevers Jonelière- arrêt Benoni Goullin reporté à l'arrêt Mangin Itinéraire modifié de la L26  24/378</Description>
+                     <Affects>
+                        <StopPoints>
+                           <AffectedStopPoint>
+                              <StopPointRef>BNGL1</StopPointRef>
+                           </AffectedStopPoint>
+                           <AffectedStopPoint>
+                              <StopPointRef>BNGL2</StopPointRef>
+                           </AffectedStopPoint>
+                           <AffectedStopPoint>
+                              <StopPointRef>GURO3</StopPointRef>
+                           </AffectedStopPoint>
+                        </StopPoints>
+                     </Affects>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>882d5fe3daf232c86338b66513d21be6677114c3</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">NANTES</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-16T17:30:00Z</StartTime>
+                        <EndTime>2024-10-17T23:59:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-10-16T00:00:00Z</StartTime>
+                        <EndTime>2024-10-17T23:59:00Z</EndTime>
+                     </PublicationWindow>
+                     <Keywords/>
+                     <Summary>Circulation difficile centre de Thouaré</Summary>
+                     <Description>Info trafic à 17h30 :Circulation difficile secteur centre de Thouaré sur Loire, la ligne C7 est déviée, en direction de Souillarderie, entre les arrêts Pré Poulain et Pont de la Métairie. I</Description>
+                     <Affects>
+                        <StopPoints>
+                           <AffectedStopPoint>
+                              <StopPointRef>BSNI1</StopPointRef>
+                           </AffectedStopPoint>
+                           <AffectedStopPoint>
+                              <StopPointRef>THCE2</StopPointRef>
+                           </AffectedStopPoint>
+                        </StopPoints>
+                     </Affects>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>503fc5632aff75e008e7cdf9be767e6a7a0bb51f</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">NANTES</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-09-03T05:00:00Z</StartTime>
+                        <EndTime>2024-10-18T02:00:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-10-17T00:00:00Z</StartTime>
+                        <EndTime>2024-10-18T02:00:00Z</EndTime>
+                     </PublicationWindow>
+                     <Keywords/>
+                     <Summary>Travaux rue Jean Poulain à Nantes</Summary>
+                     <Description>Du mardi 3 septembre au jeudi 17 octobreTravaux rue Jean Poulain à Nantes, l'itinéraire de la ligne 86 est modifié, dans les 2 sens.Où prendre votre busLigne 86 déviée entre les arrêts Fantaisie et Fresche Blanc&gt; dans les 2 sens- arrêt Vincent Scotto reporté à l'arrêt Fantaisie- arrêt Bourgeonnière reporté à l'arrêt Fresche BlancItinéraire modifié de la L8624/604</Description>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>984d8805ca38835ba93edd6ebe1bd636ace68616</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">NANTES</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-09-16T05:00:00Z</StartTime>
+                        <EndTime>2024-12-20T19:00:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-10-17T00:00:00Z</StartTime>
+                        <EndTime>2024-12-20T19:00:00Z</EndTime>
+                     </PublicationWindow>
+                     <Keywords/>
+                     <Summary>Travaux rue d'Aquitaine à St Herblain</Summary>
+                     <Description>du lundi 16 septembre au vendredi 20 décembreEn raison de travaux rue d'Aquitaine à St Herblain, les lignes 23, 59, 81 et 91 sont déviées dans les 2 sens entre les arrêts MF Bellevue et Maison des ArtsOù prendre votre bus&gt; lignes 23, 59, 81, 91 vers MF Bellevue- Arrêt Aquitaine non desservi&gt; lignes 23, 59, 81, 91 vers Haluchère et Bout des Landes, Gare Maritime et Couëron Bougon- Arrêt Aquitaine reporté à l'arrêt MF Bellevue- Arrêt  Maison des Arts reportés à l'arrêt provisoire placé rue de St Nazaire 24/633 24/636</Description>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>8ad0bd843774c068015846fc366b4cd367a77ecd</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">NANTES</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-08-26T05:00:00Z</StartTime>
+                        <EndTime>2024-11-08T19:00:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-10-17T00:00:00Z</StartTime>
+                        <EndTime>2024-11-08T19:00:00Z</EndTime>
+                     </PublicationWindow>
+                     <Keywords/>
+                     <Summary>Travaux Bd des Belges à Nantes</Summary>
+                     <Description>du lundi 26 août au vendredi 8 novembreTravaux Bd des Belges à Nantes, la ligne 10 est déviée, uniquement vers Gare de Chantenay entre les arrêts Rond-point de Paris et Lemoine Où prendre votre bus :&gt; vers Gare de Chantenay :- arrêt Belges-Montbazon reporté à l'arrêt Rp de Paris- arrêt Lemoine reporté à Tortière&gt; vers Bd de Doulon :- arrêt Lemoine reporté à l'arrêt Tortière  24/589</Description>
+                     <Affects>
+                        <StopPoints>
+                           <AffectedStopPoint>
+                              <StopPointRef>BEMZ2</StopPointRef>
+                           </AffectedStopPoint>
+                        </StopPoints>
+                     </Affects>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>54d0792b6a3f9de801826d73bca1838a18fe41ea</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">NANTES</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-16T08:59:00Z</StartTime>
+                        <EndTime>2024-10-17T23:59:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-10-16T00:00:00Z</StartTime>
+                        <EndTime>2024-10-17T23:59:00Z</EndTime>
+                     </PublicationWindow>
+                     <Keywords/>
+                     <Summary>Travaux à Patis Rondin</Summary>
+                     <Description>Info trafic à 8h57:Travaux sur le secteur de Patis Rondin. La ligne 11 est déviée entre les arrêts Perray et Pin Sec uniquement en direction de Tertre.   I</Description>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>8f2e454151a865c15a1099d754fc6660483c03b7</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">NANTES</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-16T05:00:00Z</StartTime>
+                        <EndTime>2024-10-31T23:00:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-10-17T00:00:00Z</StartTime>
+                        <EndTime>2024-10-31T23:00:00Z</EndTime>
+                     </PublicationWindow>
+                     <Keywords/>
+                     <Summary>Travaux avenue Robert Chasteland - Orvault</Summary>
+                     <Description>Du mercredi 16 au jeudi 31 octobre 2024En raison de travaux avenue Robert Chasteland à Orvault, la ligne 79 est déviée dans les deux sens entre les arrêts Beauséjour et Ferrière.Où prendre votre bus&gt; Dans les deux sens- arrêt Cravate reporté à l'arrêt Ferrière- arrêt Mimosas reporté à l'arrêt provisoire placé sur la route de Vannes24/730</Description>
+                     <Affects>
+                        <StopPoints>
+                           <AffectedStopPoint>
+                              <StopPointRef>CRVA1</StopPointRef>
+                           </AffectedStopPoint>
+                           <AffectedStopPoint>
+                              <StopPointRef>MIMO2</StopPointRef>
+                           </AffectedStopPoint>
+                           <AffectedStopPoint>
+                              <StopPointRef>MIMO1</StopPointRef>
+                           </AffectedStopPoint>
+                           <AffectedStopPoint>
+                              <StopPointRef>CRVA2</StopPointRef>
+                           </AffectedStopPoint>
+                        </StopPoints>
+                     </Affects>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>d6a42e56f8a55c5ed97d8335c283049b4b9c9da2</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">NANTES</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-15T08:00:00Z</StartTime>
+                        <EndTime>2024-10-31T23:00:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-10-17T00:00:00Z</StartTime>
+                        <EndTime>2024-10-31T23:00:00Z</EndTime>
+                     </PublicationWindow>
+                     <Keywords/>
+                     <Summary>Travaux à l'arrêt Zola - Nantes</Summary>
+                     <Description>Du mardi 15 octobre, à 8h, au jeudi 31 octobre 2024Travaux au niveau de l'arrêt Zola, les lignes 10 et 11 sont perturbées comme suit dans le secteur. Où prendre votre bus&gt; vers Gare Chantenay/Tertre- arrêt Zola reporté à l'arrêt provisoire placé 70 mètres après l'arrêt&gt; vers Bd Doulon/Perray- parcours normal PI</Description>
+                     <Affects>
+                        <StopPoints>
+                           <AffectedStopPoint>
+                              <StopPointRef>ZOLA1</StopPointRef>
+                           </AffectedStopPoint>
+                        </StopPoints>
+                     </Affects>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>34e17af78f1dea6a2c00603638a8f25589b8a691</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">NANTES</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-14T05:00:00Z</StartTime>
+                        <EndTime>2024-10-25T23:00:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-10-17T00:00:00Z</StartTime>
+                        <EndTime>2024-10-25T23:00:00Z</EndTime>
+                     </PublicationWindow>
+                     <Keywords/>
+                     <Summary>Report de larrêt Chêne Gala</Summary>
+                     <Description>Du lundi 14 au vendredi 25 octobreEn raison de travaux, l'arrêt Chêne Gala, vers Vertou, est reporté en amont avant le rond point. 24/720</Description>
+                     <Affects>
+                        <StopPoints>
+                           <AffectedStopPoint>
+                              <StopPointRef>CGLA1</StopPointRef>
+                           </AffectedStopPoint>
+                        </StopPoints>
+                     </Affects>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>4c92db3341269c5a0a5c64ba2005c4e6b08413e4</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">NANTES</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2023-11-22T05:00:00Z</StartTime>
+                        <EndTime>2025-02-28T23:59:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-10-17T00:00:00Z</StartTime>
+                        <EndTime>2025-02-28T23:59:00Z</EndTime>
+                     </PublicationWindow>
+                     <Keywords/>
+                     <Summary>Travaux rue du Plessis - Chapelle sur Erdre</Summary>
+                     <Description>A partir du mercredi 22 novembre 2023En raison de travaux, l'arrêt Plessis vers La Chapelle Aulnay est reporté de 50 mètres.Où prendre votre bus&gt; Vers La Chapelle Aulnay- Arrêt Plessis reporté à 50 mètres 23/856</Description>
+                     <Affects>
+                        <StopPoints>
+                           <AffectedStopPoint>
+                              <StopPointRef>PLES1</StopPointRef>
+                           </AffectedStopPoint>
+                        </StopPoints>
+                     </Affects>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>98617677388e64c8b088fe3292f9f1c4da0eb8c8</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">NANTES</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-16T06:26:00Z</StartTime>
+                        <EndTime>2024-10-17T23:59:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-10-16T00:00:00Z</StartTime>
+                        <EndTime>2024-10-17T23:59:00Z</EndTime>
+                     </PublicationWindow>
+                     <Keywords/>
+                     <Summary>Rail glissant à Orvault Grand Val</Summary>
+                     <Description>Info trafic à 6h23:Rail glissant à Orvault Grand Val, la ligne 2 ne circule pas entre les stations Le Cardo et Orvault Grand Val et effectue un terminus provisoire Au CardoPour continuer votre trajet vers Le Cardo ou vers Orvault Grand Val :- Prendre le bus ligne 50 ou ligne 89- La ligne C2 prolonge son itinéraire jusqu'à Orvault Grand Val I</Description>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>0bff12ad1383c02e42c20ef603468860710cbb96</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">NANTES</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-16T17:29:00Z</StartTime>
+                        <EndTime>2024-10-17T23:59:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-10-16T00:00:00Z</StartTime>
+                        <EndTime>2024-10-17T23:59:00Z</EndTime>
+                     </PublicationWindow>
+                     <Keywords/>
+                     <Summary>Bus gênant secteur Arbois</Summary>
+                     <Description>Info trafic à 17h29 :Bus gênant secteur Arbois, la ligne 59 est déviée, uniquement vers Bout des Landes, entre les arrêts Bout des Pavés et Les Roches. I</Description>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>ca294d69276c77c71d8aec5362dae0a6de1b46b9</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">NANTES</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-07-08T04:45:00Z</StartTime>
+                        <EndTime>2024-10-19T02:00:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-10-16T00:00:00Z</StartTime>
+                        <EndTime>2024-10-19T02:00:00Z</EndTime>
+                     </PublicationWindow>
+                     <Keywords/>
+                     <Summary>Travaux bd de la Prairie au Duc et bd Léon Bureau</Summary>
+                     <Description>Du lundi 8 juillet au vendredi 18 octobre Travaux bd de la Prairie au Duc et bd Léon Bureau à Nantes, la ligne 5 est déviée entre les arrêts Nizan et Prairie au Duc, uniquement vers Hangar à Bananes.Où prendre votre busVers Hangar à Bananes :- arrêt République reporté à l'arrêt République de la ligne 26 vers Jonelière- arrêt Gare de l'Etat reporté à l'arrêt povisoire placé bd de la Prairie au Duc Itinéraire modifié de la L524/453</Description>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>8b446fec153b5db73ed04bdf6f13e4c6af52193d</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">NANTES</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-09-10T05:00:00Z</StartTime>
+                        <EndTime>2024-10-31T22:00:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-10-17T00:00:00Z</StartTime>
+                        <EndTime>2024-10-31T22:00:00Z</EndTime>
+                     </PublicationWindow>
+                     <Keywords/>
+                     <Summary>Travaux au niveau de l'arrêt Belloc</Summary>
+                     <Description>Infotrafic le 7 octobre : perturbation prolongée jusqu'au 31 octobre Du mardi 10 septembre au jeudi 31 octobreTravaux au niveau de l'arrêt Belloc à Nantes, la ligne C20 est légèrement perturbée comme suit dans le secteur.Où prendre votre bus&gt; vers Ecole Centrale Audencia- arrêt Belloc reporté à l'arrêt provisoire placé 100 mètres après l'arrêt.&gt; vers Gare Maritime- arrêt Belloc reporté à l'arrêt provisoire placé 200 mètres après l'arrêt. 24/619</Description>
+                     <Affects>
+                        <StopPoints>
+                           <AffectedStopPoint>
+                              <StopPointRef>BEOC1</StopPointRef>
+                           </AffectedStopPoint>
+                           <AffectedStopPoint>
+                              <StopPointRef>BEOC2</StopPointRef>
+                           </AffectedStopPoint>
+                        </StopPoints>
+                     </Affects>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>0dfe645b4fbc9b806e5418e41bfde2f21c52383b</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">NANTES</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-15T08:00:00Z</StartTime>
+                        <EndTime>2024-10-18T23:00:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-10-16T00:00:00Z</StartTime>
+                        <EndTime>2024-10-18T23:00:00Z</EndTime>
+                     </PublicationWindow>
+                     <Keywords/>
+                     <Summary>Travaux à l'arrêt Zola - Nantes</Summary>
+                     <Description>Du mardi 15 octobre, à 8h, au vendredi 18 octobre 2024Travaux au niveau de l'arrêt Zola, les lignes 10 et 11 sont perturbées comme suit dans le secteur. Où prendre votre bus&gt; vers Gare Chantenay/Tertre- arrêt Zola reporté à l'arrêt provisoire placé 70 mètres après l'arrêt&gt; vers Bd Doulon/Perray- parcours normal PI</Description>
+                     <Affects>
+                        <StopPoints>
+                           <AffectedStopPoint>
+                              <StopPointRef>ZOLA1</StopPointRef>
+                           </AffectedStopPoint>
+                        </StopPoints>
+                     </Affects>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>b5b3c876b2f34875c0e270e1bae09530157a1964</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">NANTES</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-07T04:45:00Z</StartTime>
+                        <EndTime>2024-12-20T20:00:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-10-17T00:00:00Z</StartTime>
+                        <EndTime>2024-12-20T20:00:00Z</EndTime>
+                     </PublicationWindow>
+                     <Keywords/>
+                     <Summary>Travaux rue de la Gare à St Herblain</Summary>
+                     <Description>Du lundi 7 octobre au vendredi 20 décembreTravaux rue de la Gare à St Herblain, la ligne 50 est déviée entre les arrêts Clos Ami et Gare d'Indre, dans les 2 sens.Où prendre votre bus-&gt; vers Basse Indre- arrêt Beauregard reporté à l'arrêt provisoire placé avant le rond point- arrêt Buzardières reporté à l'arrêt Bourgonnière de la ligne 81 situé allée de la Bourgonnière-&gt; vers Porte de la Chapelle- arrêt Buzardières reporté à l'arrêt Bourgonnière de la ligne 81 situé allée de la Bourgonnière 24/689</Description>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>6b6b4b1a050105a4d5686c3c36cda199a369476d</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">NANTES</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-14T21:30:00Z</StartTime>
+                        <EndTime>2024-10-18T03:22:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-10-17T00:00:00Z</StartTime>
+                        <EndTime>2024-10-18T03:22:00Z</EndTime>
+                     </PublicationWindow>
+                     <Keywords/>
+                     <Summary>Travaux de nuit secteur Haluchère-Batignolles</Summary>
+                     <Description>Du lundi 14 au jeudi 17 octobre 2024, à partir de 21h30Travaux de nuit secteur Haluchère-Batignolles, la ligne 1 ne circule pas entre les stations Beaujoire et Haluchère-Batignolles. Elle effectue un terminus unique à Ranzay. Des bus relais circulent pour assurer la liaison entre Haluchère et Beaujoire, via Halvêque.Où prendre votre bus relais&gt; vers Beaujoire- Haluchère-Batignolles : prendre votre bus relais à l'arrêt du Bus Relais 1 situé sur le quai, de l'autre côté des voies du tram-train, après 21h30- Halvêque : prendre votre bus relais à l'arrêt placé au niveau du 87, rue de la Gare de St Joseph, après 21h33&gt; vers Haluchère-Batignolles- Beaujoire : prendre votre bus relais à l'arrêt placé derrière la station tramway, dans le refuge, après 21h28- Halvêque : prendre votre bus relais à l'arrêt placé en face du 87, rue de la Gare de St Joseph, après 21h30 24/703</Description>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>25ab28189f584d260ac656ac871efab64c6b0da3</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">NANTES</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-16T11:18:00Z</StartTime>
+                        <EndTime>2024-10-17T23:59:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-10-16T00:00:00Z</StartTime>
+                        <EndTime>2024-10-17T23:59:00Z</EndTime>
+                     </PublicationWindow>
+                     <Keywords/>
+                     <Summary>Intervention pompiers secteur Lamoricière</Summary>
+                     <Description>Info trafic à 11h15:Intervention Pompiers secteur Lamoricière. Ligne 11 déviée entre Lamoricière et Mellinet dans les deux sens de circulation.  I</Description>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>3493ffe04ff15261e298beac6bdb9401a3cd66f5</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">NANTES</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-07-01T05:45:00Z</StartTime>
+                        <EndTime>2024-12-20T19:00:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-10-17T00:00:00Z</StartTime>
+                        <EndTime>2024-12-20T19:00:00Z</EndTime>
+                     </PublicationWindow>
+                     <Keywords/>
+                     <Summary>Travaux Boulevard de la Libération - Couëron</Summary>
+                     <Description>Du lundi 1er juillet au vendredi 20 décembre 2024En raison de travaux Boulevard de la Libération à Couëron, la ligne 91 est déviée entre les arrêts Clos Ami et Chabossière. Où prendre votre bus:&gt; dans les 2 sens - arrêt Berligout reporté à l'arrêt Chabossière- arrêts Rochu et Gâtine reportés à l'arrêt Clos Ami 24/690</Description>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>51fb68eef540f39cdb33bac794bfc4996eda7734</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">NANTES</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-02T20:00:00Z</StartTime>
+                        <EndTime>2024-10-18T05:30:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-10-17T00:00:00Z</StartTime>
+                        <EndTime>2024-10-18T05:30:00Z</EndTime>
+                     </PublicationWindow>
+                     <Keywords/>
+                     <Summary>Travaux de nuit rue de Bel Air/Avenue des Villages</Summary>
+                     <Description>Du lundi 7 au vendredi 11 octobre 4 nuits de 20h00 à 5h30du lundi 14 au vendredi 18 octobre 4 nuits de 20h00 à 5h30Travaux sur le giratoire rue de Bel Air/Avenue des Villages, la ligne 85 est déviée, dans les 2 sens, entre les arrêts Danemark et Epinay.Où prendre votre bus&gt; vers Haluchère- Arrêts Moulin Boisseau, Mainguais, Picaudière, Désirade, Madeleine, Parc, Méditerranée et Sercel non desservis&gt; vers Souchais- Arrêts Méditerranée, Parc, Madeleine, Désirade, Picaudière et Mainguais non desservis 24/692</Description>
+                     <Affects>
+                        <StopPoints>
+                           <AffectedStopPoint>
+                              <StopPointRef>DRAD1</StopPointRef>
+                           </AffectedStopPoint>
+                           <AffectedStopPoint>
+                              <StopPointRef>DRAD2</StopPointRef>
+                           </AffectedStopPoint>
+                           <AffectedStopPoint>
+                              <StopPointRef>MEDI2</StopPointRef>
+                           </AffectedStopPoint>
+                           <AffectedStopPoint>
+                              <StopPointRef>MEDI1</StopPointRef>
+                           </AffectedStopPoint>
+                           <AffectedStopPoint>
+                              <StopPointRef>MGUA2</StopPointRef>
+                           </AffectedStopPoint>
+                           <AffectedStopPoint>
+                              <StopPointRef>MGUA1</StopPointRef>
+                           </AffectedStopPoint>
+                           <AffectedStopPoint>
+                              <StopPointRef>PACQ2</StopPointRef>
+                           </AffectedStopPoint>
+                           <AffectedStopPoint>
+                              <StopPointRef>PACQ1</StopPointRef>
+                           </AffectedStopPoint>
+                           <AffectedStopPoint>
+                              <StopPointRef>MBSE2</StopPointRef>
+                           </AffectedStopPoint>
+                           <AffectedStopPoint>
+                              <StopPointRef>MDNE2</StopPointRef>
+                           </AffectedStopPoint>
+                           <AffectedStopPoint>
+                              <StopPointRef>PCDI2</StopPointRef>
+                           </AffectedStopPoint>
+                           <AffectedStopPoint>
+                              <StopPointRef>SERC2</StopPointRef>
+                           </AffectedStopPoint>
+                           <AffectedStopPoint>
+                              <StopPointRef>MDNE1</StopPointRef>
+                           </AffectedStopPoint>
+                           <AffectedStopPoint>
+                              <StopPointRef>PCDI1</StopPointRef>
+                           </AffectedStopPoint>
+                        </StopPoints>
+                     </Affects>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>af4970ccf41f2a4b6bded3d49a031fa312a7c605</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">NANTES</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-07-08T04:45:00Z</StartTime>
+                        <EndTime>2025-01-01T02:00:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-10-16T00:00:00Z</StartTime>
+                        <EndTime>2025-01-01T02:00:00Z</EndTime>
+                     </PublicationWindow>
+                     <Keywords/>
+                     <Summary>Travaux bd de la Prairie au Duc et bd Léon Bureau</Summary>
+                     <Description>Info trafic le 16/10/2024 : Prolongation des travaux jusqu'à fin décembre 2024. Du lundi 8 juillet au vendredi 18 octobre Travaux bd de la Prairie au Duc et bd Léon Bureau à Nantes, la ligne 5 est déviée entre les arrêts Nizan et Prairie au Duc, uniquement vers Hangar à Bananes.Où prendre votre busVers Hangar à Bananes :- arrêt République reporté à l'arrêt République de la ligne 26 vers Jonelière- arrêt Gare de l'Etat reporté à l'arrêt povisoire placé bd de la Prairie au Duc Itinéraire modifié de la L524/453</Description>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>83d8d0116a0128f9f5741118eb0cd16889f2a3f2</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">NANTES</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-07-22T09:30:00Z</StartTime>
+                        <EndTime>2024-12-31T23:00:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-10-17T00:00:00Z</StartTime>
+                        <EndTime>2024-12-31T23:00:00Z</EndTime>
+                     </PublicationWindow>
+                     <Keywords/>
+                     <Summary>Modification de l'arrêt Hôtel Dieu</Summary>
+                     <Description>A compter du lundi 22 juillet 2024A titre expérimental l'emplacement du terminus Hôtel Dieu de la Navette Aéroport est déplacé à l'arrêt des lignes C2/C3/54  (vers Gare Sud), situé Chaussée de la Madeleine le long du Skate Park. La Navette Aéroport se positionne sur le 1 er arrêt. 24/494</Description>
+                     <Affects>
+                        <StopPoints>
+                           <AffectedStopPoint>
+                              <StopPointRef>HODI3</StopPointRef>
+                           </AffectedStopPoint>
+                        </StopPoints>
+                     </Affects>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>9b945374d2abceeec355f20fb976999ab0bf6187</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">NANTES</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-09-16T05:00:00Z</StartTime>
+                        <EndTime>2024-12-31T23:00:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-10-17T00:00:00Z</StartTime>
+                        <EndTime>2024-12-31T23:00:00Z</EndTime>
+                     </PublicationWindow>
+                     <Keywords/>
+                     <Summary>Travaux Bd Mendès France à Orvault</Summary>
+                     <Description>A compter du lundi 16 septembreTravaux de voirie sur le Bd Mendès France, les arrêts Jalière ne sont plus desservis dans les 2 sens.Où prendre votre busLigne 50&gt; Dans les 2 sens- arrêts Jalière reportés à l'arrêt Orvault Grand ValLigne 79&gt; Dans les 2 sens- arrêt Jalière reporté à l'arrêt Bois Raguenet- arrêt Orvault Grand Val reporté à l'arrêt provisoire placé de l'autre côté du boulevardLigne 89&gt; Vers Le Cardo- arrêt Jalière reporté à l'arrêt Orvault Grand Val&gt; Vers Beauséjour- arrêt Jalière reporté à l'arrêt Bois Raguenet 24/644 -  PI</Description>
+                     <Affects>
+                        <StopPoints>
+                           <AffectedStopPoint>
+                              <StopPointRef>JALI4</StopPointRef>
+                           </AffectedStopPoint>
+                           <AffectedStopPoint>
+                              <StopPointRef>JAL99</StopPointRef>
+                           </AffectedStopPoint>
+                           <AffectedStopPoint>
+                              <StopPointRef>JAL98</StopPointRef>
+                           </AffectedStopPoint>
+                           <AffectedStopPoint>
+                              <StopPointRef>JALI3</StopPointRef>
+                           </AffectedStopPoint>
+                        </StopPoints>
+                     </Affects>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>21089</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">NANTES</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-21T04:00:00Z</StartTime>
+                        <EndTime>2024-12-20T23:00:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-10-17T00:00:00Z</StartTime>
+                        <EndTime>2024-12-20T23:00:00Z</EndTime>
+                     </PublicationWindow>
+                     <Keywords/>
+                     <Summary>Travaux rue de la Plume - ST SEBASTIEN S/LOIRE</Summary>
+                     <Description>Du lundi 21 octobre au vendredi 20 décembre 2024En raison de travaux d'assainissement rue de la Plume à St Sébastien-sur-Loire, la ligne 28 et la ligne scolaire 102 sont déviées entre les arrêts Largeau et Ouche Quinet dans les deux sens de circulation.  Où prendre votre bus:&gt; vers Pirmil- arrêt La Plume reporté à l'arrêt Ouche Quinet- arrêt Ecobuts reporté à l'arrêt Largeau&gt; vers Vertou- arrêts Largeau et Ecobuts reportés à l'arrêt Largeau de la ligne 30 en direction d'Iles de Loire- arrêt La Plume reporté à l'arrêt Ouche Quinet 24/723</Description>
+                     <Affects>
+                        <StopPoints>
+                           <AffectedStopPoint>
+                              <StopPointRef>LPME1</StopPointRef>
+                           </AffectedStopPoint>
+                           <AffectedStopPoint>
+                              <StopPointRef>LPME2</StopPointRef>
+                           </AffectedStopPoint>
+                           <AffectedStopPoint>
+                              <StopPointRef>ECBU2</StopPointRef>
+                           </AffectedStopPoint>
+                           <AffectedStopPoint>
+                              <StopPointRef>ECBU1</StopPointRef>
+                           </AffectedStopPoint>
+                           <AffectedStopPoint>
+                              <StopPointRef>LAGE4</StopPointRef>
+                           </AffectedStopPoint>
+                           <AffectedStopPoint>
+                              <StopPointRef>LAGE3</StopPointRef>
+                           </AffectedStopPoint>
+                        </StopPoints>
+                     </Affects>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>475a202c29fb0c9687e9a07da0eedceb03f5d614</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">NANTES</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-16T17:40:00Z</StartTime>
+                        <EndTime>2024-10-17T23:59:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-10-16T00:00:00Z</StartTime>
+                        <EndTime>2024-10-17T23:59:00Z</EndTime>
+                     </PublicationWindow>
+                     <Keywords/>
+                     <Summary>Inondation à Basse Indre</Summary>
+                     <Description>Info trafic à 17h40 :Inondation au terminus Basse Indre, la ligne 50 ne circule pas entre les arrêts Mairie d'Indre et Basse Indre. I</Description>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>43d233ba87a5bf0cc372f5b4bbbb152e65e5e956</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">NANTES</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-07-08T04:45:00Z</StartTime>
+                        <EndTime>2025-01-01T02:00:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-10-17T00:00:00Z</StartTime>
+                        <EndTime>2025-01-01T02:00:00Z</EndTime>
+                     </PublicationWindow>
+                     <Keywords/>
+                     <Summary>Travaux bd de la Prairie au Duc et bd Léon Bureau</Summary>
+                     <Description>Info trafic le 16/10/2024 : Prolongation des travaux jusqu'à fin décembre 2024. Du lundi 8 juillet au vendredi 18 octobre Travaux bd de la Prairie au Duc et bd Léon Bureau à Nantes, la ligne 5 est déviée entre les arrêts Nizan et Prairie au Duc, uniquement vers Hangar à Bananes.Où prendre votre busVers Hangar à Bananes :- arrêt République reporté à l'arrêt République de la ligne 26 vers Jonelière- arrêt Gare de l'Etat reporté à l'arrêt povisoire placé bd de la Prairie au Duc Itinéraire modifié de la L524/453</Description>
+                     <Affects>
+                        <StopPoints>
+                           <AffectedStopPoint>
+                              <StopPointRef>RPBL3</StopPointRef>
+                           </AffectedStopPoint>
+                           <AffectedStopPoint>
+                              <StopPointRef>GRET1</StopPointRef>
+                           </AffectedStopPoint>
+                        </StopPoints>
+                     </Affects>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>3ecbe408b9987bdd54098a0cdc8d98694f016928</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">NANTES</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-17T08:56:00Z</StartTime>
+                        <EndTime>2024-10-18T23:59:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-10-17T00:00:00Z</StartTime>
+                        <EndTime>2024-10-18T23:59:00Z</EndTime>
+                     </PublicationWindow>
+                     <Keywords/>
+                     <Summary>Circulation difficile - retards</Summary>
+                     <Description>infotrafic à 8h55Circulation difficile sur l'ensemble de l'agglomération, les lignes suivantes enregistrent des retards importants.</Description>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>95916577-e4fb-464f-87c9-1bd3f9fe586f</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">ANGERS</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-09-21T04:00:00Z</StartTime>
+                        <EndTime>2024-10-18T20:00:00Z</EndTime>
+                     </ValidityPeriod>
+                     <MiscellaneousReason>undefinedProblem</MiscellaneousReason>
+                     <Keywords/>
+                     <Summary xml:lang="FR">Ligne 5B déviée du 21/09 au 18/10 place de l'Europe.</Summary>
+                     <Description xml:lang="FR">Ligne 5B déviée du 21/09 au 18/10 place de l'Europe. En raison de travaux Arrêts Europe et Route de Briollay en sens B non desservis. Bus déviés par boulevard DunantVoir plan de déviation</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:05:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>8e73d2c7-0325-451b-9570-8e4e9f5a8ef0</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">ANGERS</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-21T04:00:00Z</StartTime>
+                        <EndTime>2024-11-01T05:00:00Z</EndTime>
+                     </ValidityPeriod>
+                     <MiscellaneousReason>undefinedProblem</MiscellaneousReason>
+                     <Keywords/>
+                     <Summary xml:lang="FR">Lignes 7 et Nuit déviées du 21/10 au 31/10.</Summary>
+                     <Description xml:lang="FR">Lignes 7 et Nuit déviées du 21/10 au 31/10. En raison de travaux Arrêts de Lices à Cœur de Maine non desservis.  Bus déviés par Voies sur BergesVoir plan de déviation</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:07:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:NUIT:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>e9b5753b-b3c4-4f5d-8630-41b504fae6ff</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">ANGERS</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-14T03:30:00Z</StartTime>
+                        <EndTime>2024-12-06T22:45:00Z</EndTime>
+                     </ValidityPeriod>
+                     <MiscellaneousReason>undefinedProblem</MiscellaneousReason>
+                     <Keywords/>
+                     <Summary xml:lang="FR">Ligne 2  déviée du 14/10 au 06/12 Secteur Croix de Chéminée</Summary>
+                     <Description xml:lang="FR">Ligne 2  déviée du 14/10 au 06/12  En raison de travaux de voirie sur la Route d'Angers Arrêts Croix de Cheminée et Jules Ferry non desservis. Bus déviés par Rue des Ardoises</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:02:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>d0fe1823-74df-4bfd-9af8-309bfb78cb43</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">ANGERS</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-07T03:30:00Z</StartTime>
+                        <EndTime>2024-11-02T20:15:00Z</EndTime>
+                     </ValidityPeriod>
+                     <MiscellaneousReason>undefinedProblem</MiscellaneousReason>
+                     <Keywords/>
+                     <Summary xml:lang="FR">Ligne 9 déviée du 07/10 au 03/11 aux Ponts-de-Cé </Summary>
+                     <Description xml:lang="FR">Ligne 9 déviée du 07/10 au 03/11 aux Ponts-de-Cé  En raison de travaux  Arrêts La Chesnaie, Girardeau vers Moulin Marcille non desservis. Bus déviés par avenue de la Chesnaie et avenue GallieniVoir plan de déviation</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:09:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>ab75982e-e282-4df3-9b73-d29241bafd09</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">ANGERS</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-14T03:30:00Z</StartTime>
+                        <EndTime>2024-12-06T22:45:00Z</EndTime>
+                     </ValidityPeriod>
+                     <MiscellaneousReason>undefinedProblem</MiscellaneousReason>
+                     <Keywords/>
+                     <Summary xml:lang="FR">Lignes 154 et 156 déviées du 14/10 au 06/12 à St. Barthélemy</Summary>
+                     <Description xml:lang="FR">Mise à jour:Lignes 154 et 156 déviées du 14/10 au 06/12. En raison de travaux sur la route d'Angers Arrêts Croix de cheminée et Jules Ferry ne sont pas desservis. Bus déviés par Rue des Ardoises et Rue Joliot Curie</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:154:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:156:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>c9a41bad-5f17-421f-9da2-ec5f14420153</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">ANGERS</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-22T04:00:00Z</StartTime>
+                        <EndTime>2024-10-24T20:00:00Z</EndTime>
+                     </ValidityPeriod>
+                     <MiscellaneousReason>undefinedProblem</MiscellaneousReason>
+                     <Keywords/>
+                     <Summary xml:lang="FR">Lignes 7 et 21 déviées à Montreuil du 22/10 au 24/10.</Summary>
+                     <Description xml:lang="FR">Lignes 7 et 21 déviées à Montreuil du 22/10 au 24/10. En raison de travaux Arrêts Plateau Fleuri et Jean Huez non desservis. Bus déviés par la rue d'AngleterreVoir plan de déviation</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:07:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:21:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>58ee46bc-31a7-46e4-955e-4b94f669d825</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">ANGERS</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-01-08T04:00:00Z</StartTime>
+                        <EndTime>2024-10-18T21:45:00Z</EndTime>
+                     </ValidityPeriod>
+                     <EquipmentReason>constructionWork</EquipmentReason>
+                     <Keywords/>
+                     <Summary xml:lang="FR">Lignes 30 111 112 113 114 132 213 déviées jusqu'au 31/10</Summary>
+                     <Description xml:lang="FR">Ligne 30 et scolaires 111 112 113 114 132 213 déviés du 08/01 au 31/10. En raison de travaux à Saint-Barthélémy d'Anjou Arrêt Saint Aubin la Salle non desservi. Bus déviés par la route de Paris</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:30:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:111:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:112:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:113:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:114:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:132:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:213:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>0004d708-b01f-4815-83bf-fdf13d1686ce</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">ANGERS</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-21T04:00:00Z</StartTime>
+                        <EndTime>2024-10-25T21:45:00Z</EndTime>
+                     </ValidityPeriod>
+                     <MiscellaneousReason>undefinedProblem</MiscellaneousReason>
+                     <Keywords/>
+                     <Summary xml:lang="FR">Lignes 33 et 37 déviées du 21 au 25/10 à Cantenay-Epinard</Summary>
+                     <Description xml:lang="FR">Lignes 33 et 37 déviées du 21 au 25/10 à Cantenay-Epinard. En raison de travaux Arrêts Masson, Ronceray et Legras non desservis Bus déviés par la rue d'Angers à Cantenay-EpinardVoir plan de déviation</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:33:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:37:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>48076850-bd98-4f1f-ac64-ff14e21c5936</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">ANGERS</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-21T03:30:00Z</StartTime>
+                        <EndTime>2024-11-04T22:45:00Z</EndTime>
+                     </ValidityPeriod>
+                     <MiscellaneousReason>undefinedProblem</MiscellaneousReason>
+                     <Keywords/>
+                     <Summary xml:lang="FR">Objet : Ligne A modifiée du 21/10 au 04/11 à Avrillé</Summary>
+                     <Description xml:lang="FR">Travaux tramway à Avrillé du 21/10 au 04/11 :Du 21/10 au 04/11, le terminus tram seffectue à la station Acacias : la navette T-bus prend le relais jusquà la station Avrillé-Ardenne.Reportez-vous aux arrêts indiqués sur le plan de remplacement tramway affiché en stations. Les arrêts desservis par la navette : Acacias, Avrillé Cimetière (dans le sens vers Avrillé-Ardenne), St-Gilles (dans le sens vers Acacias), Bascule et Avrillé-Ardenne.Infos : https://www.irigo.fr/actualites/reseau/ligne-travaux-tramway-avrille-vacances-de-la-toussaint</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:A:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>40cd26bb-de6b-4992-82f6-05e6bdfab549</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">ANGERS</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-07T03:30:00Z</StartTime>
+                        <EndTime>2024-10-31T22:30:00Z</EndTime>
+                     </ValidityPeriod>
+                     <MiscellaneousReason>undefinedProblem</MiscellaneousReason>
+                     <Keywords/>
+                     <Summary xml:lang="FR">Lignes scolaires 150 161 et 163 déviées aux Ponts-de-Cé</Summary>
+                     <Description xml:lang="FR">Lignes scolaires 150 (Millot) 161 (Villon) et 163 (Villon)Déviation du 07/10 au 31/10 En raison de travaux sur le réseau d'eau avenue Gallieni aux Ponts-de-Cé Tous les arrêts sont desservis, risque de retard lié au report de circulation. Voir plan de déviation</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:150:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:161:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:163:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>d45015ce-79af-4ba5-b3b4-878d28ed9e3c</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">ANGERS</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-21T03:45:00Z</StartTime>
+                        <EndTime>2024-10-31T22:45:00Z</EndTime>
+                     </ValidityPeriod>
+                     <MiscellaneousReason>undefinedProblem</MiscellaneousReason>
+                     <Keywords/>
+                     <Summary xml:lang="FR">Ligne 6 et E22 déviée du 21 au 31/10 rue Chevrière</Summary>
+                     <Description xml:lang="FR">Ligne 6 et E22 déviée du 21 au 31/10 rue Chevrière. En raison de travaux Arrêts Petit port, Chevriere et Bouchemaine Centre non desservis vers Angers Bus déviés par la rue de la BayotiereVoir plan de déviation</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:06:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:22:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>5a34e832-be8a-4335-840a-e86d9c52ce46</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">ANGERS</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-09-30T04:00:00Z</StartTime>
+                        <EndTime>2024-11-15T21:00:00Z</EndTime>
+                     </ValidityPeriod>
+                     <EquipmentReason>constructionWork</EquipmentReason>
+                     <Keywords/>
+                     <Summary xml:lang="FR">Ligne 105 déviée du 30/09 au 15/11 à Villevêque</Summary>
+                     <Description xml:lang="FR">Ligne 105 déviée du 30/09 au 15/11 En raison de travaux à Villevêque Arrêts de Dionnière à Lot.de Villevêque non desservis.  Se reporter à larrêt Dionnière et emprunter le circuit 106 (07h57) ou le circuit 103 (08h01).OU Se reporter à larrêt Villevêque Mairie (07h57) ou Bleunière (07h58) afin demprunter le circuit 105.Voir plan de déviation</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:105:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>efc5111e-d2a2-418f-bd35-eaf9b8a572fc</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">ANGERS</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-21T06:15:00Z</StartTime>
+                        <EndTime>2024-10-21T14:30:00Z</EndTime>
+                     </ValidityPeriod>
+                     <MiscellaneousReason>undefinedProblem</MiscellaneousReason>
+                     <Keywords/>
+                     <Summary xml:lang="FR">Ligne 5A déviée le 21/10 de 08h15 à 16h30 à la Roseraie.</Summary>
+                     <Description xml:lang="FR">Ligne 5A déviée le 21/10 de 08h15 à 16h30. En raison de travaux Arrêt Angers Roseraie non desservi. Bus déviés par rue du Grand DouzilléVoir plan de déviation</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:05:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>d1181a38-fcd1-41c1-b565-486dab6973ab</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">ANGERS</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-09-23T03:30:00Z</StartTime>
+                        <EndTime>2024-10-18T21:30:00Z</EndTime>
+                     </ValidityPeriod>
+                     <MiscellaneousReason>undefinedProblem</MiscellaneousReason>
+                     <Keywords/>
+                     <Summary xml:lang="FR">Lignes 150 et 161 déviées du 23/09 au 18/10</Summary>
+                     <Description xml:lang="FR">Lignes 150 et 161 déviées du 23/09 au 18/10 aux Ponts de Cé En raison de travaux Avenue Galliéni aux Ponts de Cé Tous les arrêts sont desservis. Voir plan de déviation</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:150:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:161:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>f5059e33-11f3-48df-b783-89f1ed5cd634</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">ANGERS</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-21T04:00:00Z</StartTime>
+                        <EndTime>2024-11-15T22:45:00Z</EndTime>
+                     </ValidityPeriod>
+                     <MiscellaneousReason>undefinedProblem</MiscellaneousReason>
+                     <Keywords/>
+                     <Summary xml:lang="FR">Arrêt Château vers Doutre non desservi du 21/10 au 15/11.</Summary>
+                     <Description xml:lang="FR">Arrêt Château vers Doutre non desservi du 21/10 au 15/11. En raison de travaux Arrêt Château vers Doutre lignes 2 4 5A E20 E21 E22 111 301 non desservi du 21/10 au 15/11.  Report arrêt  Académie.</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:02:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:04:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:05:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:20:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:21:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:22:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:111:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:301:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>1d4ae0ac-812d-4e2b-9c5a-d8b7dcedbb0b</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">ANGERS</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-14T03:00:00Z</StartTime>
+                        <EndTime>2024-10-25T21:45:00Z</EndTime>
+                     </ValidityPeriod>
+                     <MiscellaneousReason>undefinedProblem</MiscellaneousReason>
+                     <Keywords/>
+                     <Summary xml:lang="FR">Ligne 5 déviée du 14/10 au 25/10 à la Roseraie</Summary>
+                     <Description xml:lang="FR">Ligne 5 déviée du 14/10 au 25/10 En raison de travaux rue du Maréchal Juin Arrêts de Maréchal Juin à Gaubourgs non desservis. Bus déviés par  l'Avenue Jean XXIII</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:05:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>2fa4fac8-3ebd-4930-95d5-88d4b64c7760</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">ANGERS</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-21T03:45:00Z</StartTime>
+                        <EndTime>2024-10-27T22:45:00Z</EndTime>
+                     </ValidityPeriod>
+                     <MiscellaneousReason>undefinedProblem</MiscellaneousReason>
+                     <Keywords/>
+                     <Summary xml:lang="FR">Ligne 2 déviée du 21 au 27/10 rue de la Jaudette </Summary>
+                     <Description xml:lang="FR">Ligne 2 déviée du 21 au 27/10 rue de la Jaudette. En raison de travaux d'enrobées Arrêts de Jaudette à Pellerinière non desservis Bus déviés par la rue de la JaudetteVoir plan de déviation</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:02:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>d6bd2f70-6ca0-42d5-b16a-0d2d4fb7c5a9</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">ANGERS</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-09-02T04:00:00Z</StartTime>
+                        <EndTime>2024-10-18T19:30:00Z</EndTime>
+                     </ValidityPeriod>
+                     <EquipmentReason>constructionWork</EquipmentReason>
+                     <Keywords/>
+                     <Summary xml:lang="FR">Lignes 40, 146, 211, 302 et 351 déviées du 02/09 au 18/10</Summary>
+                     <Description xml:lang="FR">Lignes 40, 146, 211, 302 et 351 déviées du 02/09 au 18/10 En raison de travaux à Brain sur l'Authion Arrêts Croix Combeau non desservis.  Bus déviés par la route de l'ArdoiseVoir plan de déviation</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:40:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:146:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:211:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:302:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:351:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>ee054c90-6fc7-455f-9299-3ab7b5adedf6</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">ANGERS</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-09-17T04:00:00Z</StartTime>
+                        <EndTime>2024-10-31T21:30:00Z</EndTime>
+                     </ValidityPeriod>
+                     <MiscellaneousReason>undefinedProblem</MiscellaneousReason>
+                     <Keywords/>
+                     <Summary xml:lang="FR">Ligne 5 déviée du 17/09 au 31/10.</Summary>
+                     <Description xml:lang="FR">Ligne 5 déviée du 17/09 au 31/10. En raison de travaux Arrêts de Roc Epine à Raspail non desservis.  Bus déviés par rue de la MeignanneVoir plan de déviation</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:05:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>f1122fbc-181c-4805-a96a-aea342398c19</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">ANGERS</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-06-03T03:00:00Z</StartTime>
+                        <EndTime>2024-12-27T22:45:00Z</EndTime>
+                     </ValidityPeriod>
+                     <EquipmentReason>constructionWork</EquipmentReason>
+                     <Keywords/>
+                     <Summary xml:lang="FR">Ligne Scolaire 144 déviée du 03/06 au 27/12 à Corné</Summary>
+                     <Description xml:lang="FR">Ligne scolaire 144 Venaiserie déviée du 03/06 au 27/12  En raison de travaux de voirie rue de Bellevue dans le secteur de Corné Arrêts Corné Cimetière et Croix Verte (Scolaire) non desservis.  Bus déviés par Rue Royale</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:144:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>8d8a0b32-c78b-4971-b5bb-541d69cf3d51</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">ANGERS</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-09-02T04:00:00Z</StartTime>
+                        <EndTime>2024-10-18T19:30:00Z</EndTime>
+                     </ValidityPeriod>
+                     <EquipmentReason>constructionWork</EquipmentReason>
+                     <Keywords/>
+                     <Summary xml:lang="FR">Ligne E24 déviée du 02/09 au 18/10 à Brain sur l'Authion</Summary>
+                     <Description xml:lang="FR">Ligne E24 déviée du 02/09 au 18/10 En raison de travaux à Brain sur l'Authion Arrêt Place du 8 Mai non desservi.  Terminus provisoire sur le trajet</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:24:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>f95a3978-8de4-4a5b-994d-ba52cefce680</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">ANGERS</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-09-30T04:00:00Z</StartTime>
+                        <EndTime>2024-10-18T20:00:00Z</EndTime>
+                     </ValidityPeriod>
+                     <EquipmentReason>constructionWork</EquipmentReason>
+                     <Keywords/>
+                     <Summary xml:lang="FR">Ligne 353 déviée du 30/09 au 18/10 à Villevêque</Summary>
+                     <Description xml:lang="FR">Ligne 353 déviée du 30/09 au 18/10 En raison de travaux à Villevêque Tous les arrêts sont desservis.Voir plan de déviation</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:353:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>897b39a3-8b38-46ab-8b1d-91bd51a69df1</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">ANGERS</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-21T03:45:00Z</StartTime>
+                        <EndTime>2024-10-25T21:45:00Z</EndTime>
+                     </ValidityPeriod>
+                     <MiscellaneousReason>undefinedProblem</MiscellaneousReason>
+                     <Keywords/>
+                     <Summary xml:lang="FR">Ligne E23 déviée du 21 au 25/10 à Mûrs-Erigné</Summary>
+                     <Description xml:lang="FR">Ligne E23 déviée du 21 au 25/10 à Mûrs-Erigné. En raison de travaux Arrêts entre Guicheteau et Levesque vers Centre ville non desservis.  Arrêts entre Grand Pressoir et Guicheteau vers Mûrs-Erigné non desservis. Voir plan de déviation</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:23:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>fa91641a-1671-4110-ade7-3dbe4cb7b490</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">ANGERS</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-09-09T03:00:00Z</StartTime>
+                        <EndTime>2024-10-31T22:45:00Z</EndTime>
+                     </ValidityPeriod>
+                     <MiscellaneousReason>undefinedProblem</MiscellaneousReason>
+                     <Keywords/>
+                     <Summary xml:lang="FR">Ligne 11 déviée du 09/09 au 31/10 secteur rue Louis Gain</Summary>
+                     <Description xml:lang="FR">Mise à jour:Ligne 11 déviée du 09/09 au 31/10  En raison de travaux  secteur rue Louis Gain. Arrêts de Sécurité sociale à Gardot non desservis. Bus déviés par la rue LarevelliereVoir plan de déviation</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:11:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>6112a7db-0a2d-49b4-8d94-217dd7162932</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">ANGERS</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-09-09T03:00:00Z</StartTime>
+                        <EndTime>2024-11-03T22:45:00Z</EndTime>
+                     </ValidityPeriod>
+                     <MiscellaneousReason>undefinedProblem</MiscellaneousReason>
+                     <Keywords/>
+                     <Summary xml:lang="FR">MàJ: Ligne 2 déviée du 09/09 au 03/11 secteur rue Louis Gain</Summary>
+                     <Description xml:lang="FR">Ligne 2 déviée du 09/09 au 03/11. En raison de travaux secteur rue Louis Gain.   Arrêts de Sécurité sociale à Montaigne non desservis. Bus déviés par la rue Larevelliere </Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:02:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>04a81f71-9372-4b32-9f23-6f66d6dc19a3</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">ANGERS</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-09-09T03:30:00Z</StartTime>
+                        <EndTime>2024-11-02T22:30:00Z</EndTime>
+                     </ValidityPeriod>
+                     <MiscellaneousReason>undefinedProblem</MiscellaneousReason>
+                     <Keywords/>
+                     <Summary xml:lang="FR">Lignes E23 et E24 déviées du 09/09 au 02/11 à Angers</Summary>
+                     <Description xml:lang="FR">Lignes E23 et E24 déviées du 09/09 au 02/11 à Angers En raison de travaux rue Louis Gain Arrêts de Gardot à Sécurité sociale non desservis.  Bus déviés par Avenue Montaigne et Avenue PasteurVoir plan de déviation</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:23:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:24:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>1f9cfa90-18bd-49da-8b37-a4b1fc94f26a</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">ANGERS</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-22T06:15:00Z</StartTime>
+                        <EndTime>2024-10-22T14:30:00Z</EndTime>
+                     </ValidityPeriod>
+                     <MiscellaneousReason>undefinedProblem</MiscellaneousReason>
+                     <Keywords/>
+                     <Summary xml:lang="FR">Ligne 5B déviée le 22/10 de 08h15 à 16h30 à la Roseraie.</Summary>
+                     <Description xml:lang="FR">Ligne 5B déviée le 22/10 de 08h15 à 16h30. En raison de travaux Arrêt Angers Roseraie non desservi.  Bus déviés par rue du Grand DouzilléVoir plan de déviation</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:05:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>e8d9bbdc-becb-44d6-b62f-9367cd07a857</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">ANGERS</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-09-23T04:00:00Z</StartTime>
+                        <EndTime>2024-11-02T21:00:00Z</EndTime>
+                     </ValidityPeriod>
+                     <MiscellaneousReason>undefinedProblem</MiscellaneousReason>
+                     <Keywords/>
+                     <Summary xml:lang="FR">Ligne 8 déviée du 23/09 au 02/11 avenue Galliéni.</Summary>
+                     <Description xml:lang="FR">Ligne 8 vers Floriloire déviée du 23/09 au 02/11 avenue Galliéni. En raison de travaux Arrêt Galliéni vers Floriloire non desservi Bus déviés par avenue du 8 maiVoir plan de déviation</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>ALM:Line:08:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>RTA:21570935</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">ALEOP</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-20T22:00:00Z</StartTime>
+                        <EndTime>2024-10-31T22:59:00Z</EndTime>
+                     </ValidityPeriod>
+                     <EquipmentReason>constructionWork</EquipmentReason>
+                     <Severity>normal</Severity>
+                     <Keywords/>
+                     <Summary xml:lang="fr">Nantes/CROISSANT reporté à l'arrêt provisoire Croissant Naolib dans le sens Saint-Mars &gt; Nantes- Travaux</Summary>
+                     <Description xml:lang="fr">En raison de travaux sur le boulevard Jules Verne, en direction de Nantes/GARE, l'arrêt se situe à Croissant (arrêt Naolib) au 1 rue des Marsauderies devant MONDIAL PARE-BRISE.</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>PDL:Line:346:LOC</LineRef>
+                                 <Routes>
+                                    <AffectedRoute>
+                                       <StopPoints>
+                                          <AffectedStopPoint>
+                                             <StopPointRef>MOBIITI:Quay:3223</StopPointRef>
+                                          </AffectedStopPoint>
+                                       </StopPoints>
+                                    </AffectedRoute>
+                                 </Routes>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>PDL:Line:360:LOC</LineRef>
+                                 <Routes>
+                                    <AffectedRoute>
+                                       <StopPoints>
+                                          <AffectedStopPoint>
+                                             <StopPointRef>MOBIITI:Quay:3223</StopPointRef>
+                                          </AffectedStopPoint>
+                                       </StopPoints>
+                                    </AffectedRoute>
+                                 </Routes>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>RTA:19530982</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">ALEOP</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-03-04T23:00:00Z</StartTime>
+                        <EndTime>2025-02-28T22:59:00Z</EndTime>
+                     </ValidityPeriod>
+                     <EquipmentReason>constructionWork</EquipmentReason>
+                     <Severity>normal</Severity>
+                     <Keywords/>
+                     <Summary xml:lang="fr">Baugé-en-Anjou (Baugé)/CENTRE reporté aux arrêts provisoires Baugé-en-Anjou (Baugé)/CENTRE TRAVAUX NORD et Baugé-en-Anjou (Baugé)/CENTRE TRAVAUX SUD</Summary>
+                     <Description xml:lang="fr">Arrêt transféré aux extrémités nord et sud de la ville sur la D938.</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>PDL:Line:26:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>altered</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>RTA:21550753</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">ALEOP</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-06T22:01:00Z</StartTime>
+                        <EndTime>2024-12-13T22:59:00Z</EndTime>
+                     </ValidityPeriod>
+                     <MiscellaneousReason>undefinedProblem</MiscellaneousReason>
+                     <Severity>verySlight</Severity>
+                     <Keywords/>
+                     <Summary xml:lang="fr">Manque d'adhérence aux rails</Summary>
+                     <Description xml:lang="fr">Pour compenser les retards liés à la perte d'adhérence sur les rails dues aux feuilles mortes sur les voies, certains TER voient leurs horaires de départ avancés. Vérifiez vos horaires sur le site TER Pays de la Loire, SNCF Connect ou votre application de mobilité.</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>PDL:Line:02b:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>PDL:Line:11:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>PDL:Line:23:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>PDL:Line:01b:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>PDL:Line:02:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>PDL:Line:05:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>PDL:Line:28:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>PDL:Line:06:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>PDL:Line:19:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>PDL:Line:08:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>PDL:Line:09:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>PDL:Line:T1:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>PDL:Line:T2:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>PDL:Line:20:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>PDL:Line:10:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>PDL:Line:21:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>unknown</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>RTA:21551164</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">ALEOP</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-20T22:00:00Z</StartTime>
+                        <EndTime>2024-10-31T22:59:00Z</EndTime>
+                     </ValidityPeriod>
+                     <EquipmentReason>constructionWork</EquipmentReason>
+                     <Severity>normal</Severity>
+                     <Keywords/>
+                     <Summary xml:lang="fr">St Jean-d'Assé/EGLISE reporté rue Nationale-Travaux</Summary>
+                     <Description xml:lang="fr">Dans le sens Fresnay &gt; Le Mans : arrêt provisoire au 3 rue Nationale.  Dans le sens Le Mans &gt; Fresnay : arrêt provisoire au 10 rue Nationale.</Description>
+                     <Affects>
+                        <StopPlaces>
+                           <AffectedStopPlace>
+                              <StopPlaceRef>MOBIITI:StopPlace:4392</StopPlaceRef>
+                           </AffectedStopPlace>
+                        </StopPlaces>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>RTA:21339977</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">ALEOP</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-01T04:00:00Z</StartTime>
+                        <EndTime>2025-01-01T22:59:00Z</EndTime>
+                     </ValidityPeriod>
+                     <MiscellaneousReason>unknown</MiscellaneousReason>
+                     <Severity>verySlight</Severity>
+                     <Keywords/>
+                     <Summary xml:lang="fr">Modification horaires course 1655/16551</Summary>
+                     <Description xml:lang="fr">https://drive.google.com/file/d/1RkgAHEzXcukctDckPqsFOI2y5gIKuIZq/view?usp=sharing</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>PDL:Line:216_S:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>altered</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>RTA:21125582</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">ALEOP</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-09-01T22:00:00Z</StartTime>
+                        <EndTime>2024-11-22T22:59:00Z</EndTime>
+                     </ValidityPeriod>
+                     <EquipmentReason>constructionWork</EquipmentReason>
+                     <Severity>normal</Severity>
+                     <Keywords/>
+                     <Summary xml:lang="fr">Rezé/ATOUT SUD reporté à l'arrêt Naolib "Seil" rue de l'Abbé Grégoire dans le sens entrant sur Nantes - Travaux</Summary>
+                     <Description xml:lang="fr">Arrêt "Seil" situé face au magasin Conforama</Description>
+                     <Affects>
+                        <StopPoints>
+                           <AffectedStopPoint>
+                              <StopPointRef>MOBIITI:Quay:2493</StopPointRef>
+                           </AffectedStopPoint>
+                        </StopPoints>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>altered</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>RTA:21195410</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">ALEOP</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-09-08T22:00:00Z</StartTime>
+                        <EndTime>2025-07-04T21:59:00Z</EndTime>
+                     </ValidityPeriod>
+                     <MiscellaneousReason>undefinedProblem</MiscellaneousReason>
+                     <Severity>verySlight</Severity>
+                     <Keywords/>
+                     <Summary xml:lang="fr">Modification d'horaires à compter du lundi 9 septembre 2024</Summary>
+                     <Description xml:lang="fr">Les nouveaux horaires de circulation seront consultables prochainement dans la rubrique "horaires" du site Aléop.</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>PDL:Line:420:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>PDL:Line:418:LOC</LineRef>
+                              </AffectedLine>
+                              <AffectedLine>
+                                 <LineRef>PDL:Line:419:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>altered</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>RTA:21086446</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">ALEOP</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-09-01T22:00:00Z</StartTime>
+                        <EndTime>2024-11-03T22:59:00Z</EndTime>
+                     </ValidityPeriod>
+                     <EquipmentReason>constructionWork</EquipmentReason>
+                     <Severity>normal</Severity>
+                     <Keywords/>
+                     <Summary xml:lang="fr">Les Rosiers sur Loire - horaires aménagés - Travaux</Summary>
+                     <Description xml:lang="fr">En raison de la reprise des travaux sur la levée, une déviation est mise en place. Certains horaires sont avancés de 9 mins, d'autres retardés.</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>PDL:Line:404:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>delayed</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>RTA:21558726</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">ALEOP</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-20T22:00:00Z</StartTime>
+                        <EndTime>2024-10-25T21:59:00Z</EndTime>
+                     </ValidityPeriod>
+                     <EquipmentReason>constructionWork</EquipmentReason>
+                     <Severity>normal</Severity>
+                     <Keywords/>
+                     <Summary xml:lang="fr">Loroux Bottereau/BRETONNIERE et EGLISE non desservis - Travaux</Summary>
+                     <Description xml:lang="fr">En raison de la route barrée Rue des Forges, les arrêts sont reportés à l'arrêt GENDARMERIE sur la Rue de la Loire.</Description>
+                     <Affects>
+                        <StopPlaces>
+                           <AffectedStopPlace>
+                              <StopPlaceRef>MOBIITI:StopPlace:2522</StopPlaceRef>
+                           </AffectedStopPlace>
+                           <AffectedStopPlace>
+                              <StopPlaceRef>MOBIITI:StopPlace:14230</StopPlaceRef>
+                           </AffectedStopPlace>
+                        </StopPlaces>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>altered</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>RTA:21042205</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">ALEOP</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-09-01T22:00:00Z</StartTime>
+                        <EndTime>2024-10-18T21:59:00Z</EndTime>
+                     </ValidityPeriod>
+                     <EquipmentReason>constructionWork</EquipmentReason>
+                     <Severity>normal</Severity>
+                     <Keywords/>
+                     <Summary xml:lang="fr">Coëx/BRECHOTEAU et PLACE CLEMENCEAU reportés RUE DES ACACIAS dans les deux sens - Travaux</Summary>
+                     <Description xml:lang="fr">Suite aux travaux de voirie du centre-ville de COEX (Pour tous les horaires de passages)</Description>
+                     <Affects>
+                        <StopPlaces>
+                           <AffectedStopPlace>
+                              <StopPlaceRef>MOBIITI:StopPlace:4878</StopPlaceRef>
+                           </AffectedStopPlace>
+                           <AffectedStopPlace>
+                              <StopPlaceRef>MOBIITI:StopPlace:4884</StopPlaceRef>
+                           </AffectedStopPlace>
+                        </StopPlaces>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>RTA:21515794</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">ALEOP</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-22T22:00:00Z</StartTime>
+                        <EndTime>2024-10-31T22:59:00Z</EndTime>
+                     </ValidityPeriod>
+                     <MiscellaneousReason>demonstration</MiscellaneousReason>
+                     <Severity>normal</Severity>
+                     <Keywords/>
+                     <Summary xml:lang="fr">Redon/GARE SNCF reporté à l'arrêt Breizh Go ROND POINT DU HAUT PATIS - Foire Teillouse</Summary>
+                     <Description xml:lang="fr">L'arrêt Redon/GARE SNCF ne sera plus desservi du Mercredi 23 Octobre à 14h00 jusqu'au Jeudi 31 Octobre à 06h00</Description>
+                     <Affects>
+                        <StopPoints>
+                           <AffectedStopPoint>
+                              <StopPointRef>MOBIITI:Quay:4064</StopPointRef>
+                           </AffectedStopPoint>
+                           <AffectedStopPoint>
+                              <StopPointRef>MOBIITI:Quay:4063</StopPointRef>
+                           </AffectedStopPoint>
+                        </StopPoints>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>RTA:21550500</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">ALEOP</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-20T22:00:00Z</StartTime>
+                        <EndTime>2024-10-31T22:59:00Z</EndTime>
+                     </ValidityPeriod>
+                     <EquipmentReason>constructionWork</EquipmentReason>
+                     <Severity>normal</Severity>
+                     <Keywords/>
+                     <Summary xml:lang="fr">Mise à jour Carquefou/BRECHETIERE reporté dans le sens vers Nantes/GARE - Travaux</Summary>
+                     <Description xml:lang="fr">En raison de travaux Route de Carquefou, Carquefou/BRECHETIERE dans le sens vers Nantes/GARE est reporté après le giratoire ICAM route de Carquefou.</Description>
+                     <Affects>
+                        <StopPoints>
+                           <AffectedStopPoint>
+                              <StopPointRef>MOBIITI:Quay:3400</StopPointRef>
+                           </AffectedStopPoint>
+                        </StopPoints>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>RTA:21551538</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">ALEOP</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-11-03T23:00:00Z</StartTime>
+                        <EndTime>2025-08-31T21:59:00Z</EndTime>
+                     </ValidityPeriod>
+                     <MiscellaneousReason>undefinedProblem</MiscellaneousReason>
+                     <Severity>normal</Severity>
+                     <Keywords/>
+                     <Summary xml:lang="fr">Suppression du 19h25 Sablé sur Sarthe/GARE SNCF &gt; Château Gontier/AVENUE JOFFRE du vendredi soir - Modification du plan de transport</Summary>
+                     <Description xml:lang="fr">La nouvelle fiches horaires sera consultable prochainement dans la rubrique "horaires" du site Aléop.</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>PDL:Line:118:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>shortFormedService</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>RTA:21238470</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">ALEOP</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-09-15T22:00:00Z</StartTime>
+                        <EndTime>2024-11-02T22:59:00Z</EndTime>
+                     </ValidityPeriod>
+                     <EquipmentReason>constructionWork</EquipmentReason>
+                     <Severity>normal</Severity>
+                     <Keywords/>
+                     <Summary xml:lang="fr">Saint-Mars-du-Désert/PONT DAVID non desservi dans le sens Nantes &gt; Saint-Mars-la-Jaille - Travaux rue de la Tourmentinerie</Summary>
+                     <Description xml:lang="fr">Arrêt le plus proche Saint Mars du désert/ CENTRE</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <AffectedLine>
+                                 <LineRef>PDL:Line:360:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>RTA:21549432</SituationNumber>
+                     <Source>
+                        <Name xml:lang="FR">ALEOP</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-20T22:00:00Z</StartTime>
+                        <EndTime>2025-02-28T22:59:00Z</EndTime>
+                     </ValidityPeriod>
+                     <EquipmentReason>constructionWork</EquipmentReason>
+                     <Severity>normal</Severity>
+                     <Keywords/>
+                     <Summary xml:lang="fr">Beaulieu sur Layon/RUE SAINT VINCENT situé square Henri Ribière reporté devant le garage Citroën - Travaux</Summary>
+                     <Description xml:lang="fr">Larrêt « Rue St Vincent » situé à côté du centre de secours est maintenu dans le sens Valanjou &gt; Angers.Les horaires de passage du car ne sont pas modifiés.</Description>
+                     <Affects>
+                        <StopPlaces>
+                           <AffectedStopPlace>
+                              <StopPlaceRef>MOBIITI:StopPlace:3757</StopPlaceRef>
+                           </AffectedStopPlace>
+                        </StopPlaces>
+                        <VehicleJourneys/>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <CreationTime>2024-10-11T14:07:14.415Z</CreationTime>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>les_sables_d_olonne-128</SituationNumber>
+                     <Version>1</Version>
+                     <Source>
+                        <Name>Mobi-iti disruption service</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-11T14:06:43.787Z</StartTime>
+                        <EndTime>2024-10-18T00:00:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-10-11T00:00:00Z</StartTime>
+                        <EndTime>2024-10-18T00:00:00Z</EndTime>
+                     </PublicationWindow>
+                     <EquipmentReason>constructionWork</EquipmentReason>
+                     <Severity>normal</Severity>
+                     <Keywords/>
+                     <Summary xml:lang="FR">- Arrêt PARC DE LA JARRIE direction HOTEL DE VILLE : non desservi jusquà la fin des travaux</Summary>
+                     <Description xml:lang="FR">- Arrêt PARC DE LA JARRIE direction HOTEL DE VILLE : non desservi jusquà la fin des travaux (date de fin non connue pour le moment).  Arrêt à moins de 10 minutes à pied : EGLISE DOLONNE direction HOTEL DE VILLE (ligne A). Arrêts à 15 minutes à pied : ROULIERS direction HOTEL DE VILLE (lignes A , 7) et MINOTERIE direction PLAGE TANCHET (ligne 7).</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <NetworkRef>LSO:Network:1:LOC</NetworkRef>
+                              <AffectedLine>
+                                 <LineRef>LSO:Line:3715:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <CreationTime>2024-10-14T17:00:50.978Z</CreationTime>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>les_sables_d_olonne-130</SituationNumber>
+                     <Version>1</Version>
+                     <Source>
+                        <Name>Mobi-iti disruption service</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-14T17:00:23.368Z</StartTime>
+                        <EndTime>2024-10-18T00:00:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-10-14T00:00:00Z</StartTime>
+                        <EndTime>2024-10-18T00:00:00Z</EndTime>
+                     </PublicationWindow>
+                     <EquipmentReason>constructionWork</EquipmentReason>
+                     <Severity>normal</Severity>
+                     <Keywords/>
+                     <Summary xml:lang="FR">Arrêt ZONE DES PLESSES direction HOTEL DE VILLE</Summary>
+                     <Description xml:lang="FR">Arrêt ZONE DES PLESSES direction HOTEL DE VILLE : non desservi jusqu'à la fin des travaux (date de fin inconnue pour le moment). Arrêt à 5 minutes à pied : SPI (ligne D).</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <NetworkRef>LSO:Network:1:LOC</NetworkRef>
+                              <AffectedLine>
+                                 <LineRef>LSO:Line:3718:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <CreationTime>2024-10-11T13:59:04.881Z</CreationTime>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>les_sables_d_olonne-125</SituationNumber>
+                     <Version>1</Version>
+                     <Source>
+                        <Name>Mobi-iti disruption service</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-11T13:58:32.89Z</StartTime>
+                        <EndTime>2024-10-18T00:00:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-10-11T00:00:00Z</StartTime>
+                        <EndTime>2024-10-18T00:00:00Z</EndTime>
+                     </PublicationWindow>
+                     <EquipmentReason>constructionWork</EquipmentReason>
+                     <Severity>normal</Severity>
+                     <Keywords/>
+                     <Summary xml:lang="FR">Arrêts STRASBOURG dans les deux directions : non desservis</Summary>
+                     <Description xml:lang="FR">- Arrêts STRASBOURG dans les deux directions : non desservis jusquà la fin des travaux (date de fin non connue pour le moment). Arrêts situés à 10 minutes à pied : ARAGO et PRESIDENTS (ligne C).</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <NetworkRef>LSO:Network:1:LOC</NetworkRef>
+                              <AffectedLine>
+                                 <LineRef>LSO:Line:3717:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <CreationTime>2024-10-14T17:03:18.637Z</CreationTime>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>les_sables_d_olonne-131</SituationNumber>
+                     <Version>1</Version>
+                     <Source>
+                        <Name>Mobi-iti disruption service</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-14T17:02:42.157Z</StartTime>
+                        <EndTime>2024-12-20T01:00:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-10-14T00:00:00Z</StartTime>
+                        <EndTime>2024-12-21T01:00:00Z</EndTime>
+                     </PublicationWindow>
+                     <EquipmentReason>constructionWork</EquipmentReason>
+                     <Severity>normal</Severity>
+                     <Keywords/>
+                     <Summary xml:lang="FR">- Arrêt MOULINEAU dans les deux directions non desservis jusquau 20 décembre 2024</Summary>
+                     <Description xml:lang="FR">- Arrêt MOULINEAU dans les deux directions non desservis jusquau 20 décembre 2024 inclus selon travaux. A la place rendez-vous : à larrêt CORNIL (ligne 9) situé à moins de 5 minutes à pied, au niveau du 4 rue Ambroise Paré 85340 Les Sables dOlonne.</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <NetworkRef>LSO:Network:1:LOC</NetworkRef>
+                              <AffectedLine>
+                                 <LineRef>LSO:Line:4563:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <CreationTime>2024-10-11T18:15:16.241Z</CreationTime>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>les_sables_d_olonne-129</SituationNumber>
+                     <Version>1</Version>
+                     <Source>
+                        <Name>Mobi-iti disruption service</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-11T18:14:37.572Z</StartTime>
+                        <EndTime>2024-11-11T01:00:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-10-11T00:00:00Z</StartTime>
+                        <EndTime>2024-11-12T01:00:00Z</EndTime>
+                     </PublicationWindow>
+                     <EquipmentReason>constructionWork</EquipmentReason>
+                     <Severity>normal</Severity>
+                     <Keywords/>
+                     <Summary xml:lang="FR">- Arrêts POISSONNERIE PILOTE, PORT DE PECHE, PASSEUR, GRANDE PLAGE et COURS BLOSSAC : non desservis</Summary>
+                     <Description xml:lang="FR">- Arrêts POISSONNERIE PILOTE, PORT DE PECHE, PASSEUR, GRANDE PLAGE et COURS BLOSSAC : non desservis par la ligne E du 16 octobre au 11 novembre inclus. Arrêt le plus proche : HOTEL DE VILLE (lignes A B C D E M1 et M1 du 19/10 au 11/11 inclus).La Marinette Centre-Ville/Plage pourra, quant à elle, desservir ces arrêts.</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <NetworkRef>LSO:Network:1:LOC</NetworkRef>
+                              <AffectedLine>
+                                 <LineRef>LSO:Line:3719:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <CreationTime>2024-10-11T14:01:20.969Z</CreationTime>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>les_sables_d_olonne-127</SituationNumber>
+                     <Version>1</Version>
+                     <Source>
+                        <Name>Mobi-iti disruption service</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-11T14:00:56.965Z</StartTime>
+                        <EndTime>2024-10-18T00:00:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-10-11T00:00:00Z</StartTime>
+                     </PublicationWindow>
+                     <EquipmentReason>constructionWork</EquipmentReason>
+                     <Severity>normal</Severity>
+                     <Keywords/>
+                     <Summary xml:lang="FR">- Arrêt PARC DE LA JARRIE direction PLAGE TANCHET : non desservi</Summary>
+                     <Description xml:lang="FR">- Arrêt PARC DE LA JARRIE direction PLAGE TANCHET : non desservi jusquà la fin des travaux (date de fin non connue pour le moment). Arrêts à 15 minutes à pied : ROULIERS direction PLAGE TANCHET (lignes A , 7) et MINOTERIE direction PLAGE TANCHET (ligne 7).</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <NetworkRef>LSO:Network:1:LOC</NetworkRef>
+                              <AffectedLine>
+                                 <LineRef>LSO:Line:4561:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <CreationTime>2024-10-01T10:16:44.06Z</CreationTime>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>les_sables_d_olonne-123</SituationNumber>
+                     <Version>1</Version>
+                     <Source>
+                        <Name>Mobi-iti disruption service</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-01T10:15:09.83Z</StartTime>
+                        <EndTime>2024-10-21T00:00:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-10-01T00:00:00Z</StartTime>
+                        <EndTime>2024-10-14T00:00:00Z</EndTime>
+                     </PublicationWindow>
+                     <EquipmentReason>constructionWork</EquipmentReason>
+                     <Severity>normal</Severity>
+                     <Keywords/>
+                     <Summary xml:lang="FR">Arrêt PLAGE DE LA PARACOU direction AUBRAIE - LES SALINES non desservi</Summary>
+                     <Description xml:lang="FR">- Arrêt PLAGE DE LA PARACOU direction AUBRAIE - LES SALINES : non desservi jusquà la fin des travaux (date de fin non connue pour le moment). Arrêt situé à 5 minutes à pied : CHARDON BLEU (ligne B).</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <NetworkRef>LSO:Network:1:LOC</NetworkRef>
+                              <AffectedLine>
+                                 <LineRef>LSO:Line:3030:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+                  <PtSituationElement>
+                     <CreationTime>2024-09-19T18:01:51.549Z</CreationTime>
+                     <ParticipantRef>MOBIITI</ParticipantRef>
+                     <SituationNumber>les_sables_d_olonne-120</SituationNumber>
+                     <Version>1</Version>
+                     <Source>
+                        <Name>Mobi-iti disruption service</Name>
+                     </Source>
+                     <ValidityPeriod>
+                        <StartTime>2024-10-16T17:27:49.126Z</StartTime>
+                        <EndTime>2024-12-03T01:00:00Z</EndTime>
+                     </ValidityPeriod>
+                     <PublicationWindow>
+                        <StartTime>2024-09-19T00:00:00Z</StartTime>
+                        <EndTime>2024-12-03T01:00:00Z</EndTime>
+                     </PublicationWindow>
+                     <EquipmentReason>constructionWork</EquipmentReason>
+                     <Severity>normal</Severity>
+                     <Keywords/>
+                     <Summary xml:lang="FR">Arrêts VENDEE GLOBE dans les deux directions et LOUIS BRAILLE dans les deux directions non desservis</Summary>
+                     <Description xml:lang="FR">- Arrêts VENDEE GLOBE dans les deux directions et LOUIS BRAILLE dans les deux directions : non desservis du 30 septembre au 2 décembre inclus en fonction de la réouverture à la circulation. Arrêt le plus proche selon localisation : POSTE (ligne B) ou SAUNIERS (lignes B, M2).</Description>
+                     <Affects>
+                        <Networks>
+                           <AffectedNetwork>
+                              <NetworkRef>LSO:Network:1:LOC</NetworkRef>
+                              <AffectedLine>
+                                 <LineRef>LSO:Line:3030:LOC</LineRef>
+                              </AffectedLine>
+                           </AffectedNetwork>
+                        </Networks>
+                     </Affects>
+                     <Consequences>
+                        <Consequence>
+                           <Condition>diverted</Condition>
+                        </Consequence>
+                     </Consequences>
+                  </PtSituationElement>
+               </Situations>
+            </siri:SituationExchangeDelivery>
+         </Notification>
+         <SiriExtension xmlns=""/>
+      </NotifySituationExchange>
+   </soapenv:Body>
+</soapenv:Envelope>

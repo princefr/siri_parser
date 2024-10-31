@@ -1,0 +1,75 @@
+name: Publish Go Package
+
+on:
+  push:
+    tags:
+      - 'v*'
+  release:
+    types: [created]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: '1.23'
+          cache: true
+
+      - name: Verify dependencies
+        run: go mod verify
+
+      - name: Build
+        run: go build -v ./...
+
+      - name: Run tests
+        run: go test -v ./...
+
+  publish:
+    needs: build-and-test
+    runs-on: ubuntu-latest  
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: '1.23'
+          cache: true
+
+      - name: Verify module
+        run: |
+          go mod download
+          go mod verify
+
+      - name: Publish to GOPROXY
+        env:
+          GOPROXY: proxy.golang.org
+          GOSUMDB: sum.golang.org
+          GOOS: linux
+          GOARCH: amd64
+        run: |
+          # Force proxy.golang.org to index the new version
+          go list -m github.com/${GITHUB_REPOSITORY}@${GITHUB_REF#refs/tags/}
+
+      - name: Build package
+        run: |
+          mkdir -p dist
+          GOOS=linux GOARCH=amd64 go build -o dist/app-linux-amd64
+          GOOS=darwin GOARCH=amd64 go build -o dist/app-darwin-amd64
+          GOOS=windows GOARCH=amd64 go build -o dist/app-windows-amd64.exe
+
+      - name: Create release
+        if: github.event_name == 'release'
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            dist/*
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
