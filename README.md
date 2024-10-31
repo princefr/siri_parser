@@ -1,4 +1,4 @@
-# SIRI Profile France Parser (Rust) - Proof of concept , README is obselete for the moment.
+# SIRI Profile France Parser (Not Ready)
 [![MIT licensed](https://img.shields.io/badge/License-MIT-yellow.svg)](https://choosealicense.com/licenses/mit/)
 [![Rust CI](https://github.com/princefr/siri_parser/actions/workflows/CI_rust.yml/badge.svg)](https://github.com/princefr/siri_parser/actions/workflows/CI_rust.yml)
 [![Go CI](https://github.com/princefr/siri_parser/actions/workflows/CI_golang.yml/badge.svg)](https://github.com/princefr/siri_parser/actions/workflows/CI_golang.yml)

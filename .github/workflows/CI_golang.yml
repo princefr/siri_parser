@@ -20,7 +20,9 @@ jobs:
           cache: true
 
       - name: Verify dependencies
-        run: go mod verify
+        run: |
+          cd go
+          go mod verify
 
       - name: Build
         run: go build -v ./...
@@ -44,6 +46,7 @@ jobs:
 
       - name: Verify module
         run: |
+          cd go
           go mod download
           go mod verify
 
@@ -55,21 +58,22 @@ jobs:
           GOARCH: amd64
         run: |
           # Force proxy.golang.org to index the new version
-          go list -m github.com/${GITHUB_REPOSITORY}@${GITHUB_REF#refs/tags/}
+          go list -m github.com/${GITHUB_REPOSITORY}/go@${GITHUB_REF#refs/tags/}
 
-      - name: Build package
-        run: |
-          mkdir -p dist
-          GOOS=linux GOARCH=amd64 go build -o dist/app-linux-amd64
-          GOOS=darwin GOARCH=amd64 go build -o dist/app-darwin-amd64
-          GOOS=windows GOARCH=amd64 go build -o dist/app-windows-amd64.exe
+      # - name: Build package
+      #   run: |
+      #     cd go
+      #     mkdir -p dist
+      #     GOOS=linux GOARCH=amd64 go build -o dist/app-linux-amd64
+      #     GOOS=darwin GOARCH=amd64 go build -o dist/app-darwin-amd64
+      #     GOOS=windows GOARCH=amd64 go build -o dist/app-windows-amd64.exe
 
-      - name: Create release
-        if: github.event_name == 'release'
-        uses: softprops/action-gh-release@v1
-        with:
-          files: |
-            dist/*
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # - name: Create release
+      #   if: github.event_name == 'release'
+      #   uses: softprops/action-gh-release@v1
+      #   with:
+      #     files: |
+      #       dist/*
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
