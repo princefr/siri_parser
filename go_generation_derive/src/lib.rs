@@ -1,6 +1,5 @@
 use proc_macro2::TokenStream;
 use quote::quote;
-use syn::Field;
 use syn::{
     parse_macro_input, parse_str, punctuated::Punctuated, token::Comma, Data, DeriveInput, Fields,
     Ident, Type, Variant,
@@ -10,7 +9,7 @@ use std::io::Write;
 use std::path::Path;
 use std::{fs::File, fs::OpenOptions};
 
-const GO_FILE_PATH: &str = "go/generation.go";
+const GO_FILE_PATH: &str = "../go/generation.go";
 
 fn add_to_file(go_code: &str) {
     // Append the generated code to the existing file
