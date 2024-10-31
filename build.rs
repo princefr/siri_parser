@@ -5,7 +5,7 @@ use std::io::Write;
 use std::path::Path;
 
 // specify the pa
-const GO_FILE_PATH: &str = "../go/generation.go";
+const GO_FILE_PATH: &str = "./go/generation.go";
 
 // Version that checks permissions first
 pub fn safe_remove_if_exists<P: AsRef<Path>>(path: P) -> io::Result<()> {
@@ -16,7 +16,7 @@ pub fn safe_remove_if_exists<P: AsRef<Path>>(path: P) -> io::Result<()> {
         if metadata.permissions().readonly() {
             return Err(io::Error::new(
                 io::ErrorKind::PermissionDenied,
-                "File is read-only",
+                "File is read-only", 
             ));
         }
         fs::remove_file(path)?;

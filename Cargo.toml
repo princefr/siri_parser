@@ -2,6 +2,7 @@
 name = "siri_et_parser"
 version = "0.1.0"
 edition = "2021"
+build = "build.rs"
 
 [dependencies]
 serde = { version = "1.0.213", features = ["derive"] }
