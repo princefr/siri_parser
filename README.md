@@ -1,4 +1,6 @@
+# SIRI Profile France Parser (Rust) - Proof of concept , README is obselete for the moment.
 
+<!-- 
 # SIRI Profile France Parser (Rust) - Proof of concept
 
 ## Overview
@@ -110,4 +112,4 @@ Envelope body can be from different types, it follow the available SIRI availabl
 - Designed with concurrency in mind to handle large volumes of real-time data
 
 
-
+ -->
