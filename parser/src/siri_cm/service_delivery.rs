@@ -3,7 +3,7 @@ use  serde::{Serialize, Deserialize};
 use super::connection_monitoring_feeder_delivery::ConnectionMonitoringFeederDelivery;
 
 
-#[derive(Debug, Serialize, Deserialize, PartialEq)]
+#[derive(Debug, Serialize, Clone, Deserialize, PartialEq)]
 #[serde(rename_all = "PascalCase")]
 pub struct ServiceDelivery {
     pub connection_monitoring_feeder_delivery: Option<ConnectionMonitoringFeederDelivery>,

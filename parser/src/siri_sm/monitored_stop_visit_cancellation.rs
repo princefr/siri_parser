@@ -5,7 +5,7 @@ use crate::models::framed_vehicle_journey_ref::FramedVehicleJourneyRef;
 
 use super::journey_pattern_info_group::JourneyPatternInfoGroup;
 
-#[derive(Debug, Default, Serialize, Deserialize, PartialEq, Eq, GoGenerate)]
+#[derive(Debug, Default, Clone, Serialize, Deserialize, PartialEq, Eq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct MonitoredStopVisitCancellation {
     recorded_at_time: String,                              // xsd:dateTime

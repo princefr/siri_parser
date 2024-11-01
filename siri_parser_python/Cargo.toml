@@ -5,10 +5,14 @@ edition = "2021"
 
 
 [lib]
-name = "siri_parser_python"
+name = "siri_parser"
 crate-type = ["cdylib"]
 
 
 [dependencies]
 pyo3 = { version = "0.18", features = ["extension-module"] }
 parser = { path = "../parser" }
+
+
+[package.metadata.maturin]
+name = "siri_parser"

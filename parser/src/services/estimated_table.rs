@@ -6,7 +6,10 @@ use crate::{
     notifications::estimated_timetable_notification::EstimatedTimetableNotification,
 };
 
-#[derive(Deserialize, Serialize, PartialEq, Debug, Eq, GoGenerate)]
+use pyo3::pyclass;
+
+#[pyclass]
+#[derive(Deserialize, Serialize, Clone, PartialEq, Debug, Eq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct NotifyEstimatedTimetable {
     pub service_delivery_info: ServiceDeliveryInfo,

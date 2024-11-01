@@ -10,7 +10,7 @@ use super::{
     recorded_calls::RecordedCalls, train_numbers::TrainNumbers,
 };
 
-#[derive(Debug, Serialize, Deserialize, PartialEq, Eq, GoGenerate)]
+#[derive(Debug, Serialize, Clone, Deserialize, PartialEq, Eq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct EstimatedVehicleJourney {
     pub line_ref: String,

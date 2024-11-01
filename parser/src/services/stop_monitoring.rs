@@ -5,8 +5,10 @@ use crate::{
     models::service_delivery_info::ServiceDeliveryInfo,
     notifications::stop_monitoring_notification::StopMonitoringNotification,
 };
+use pyo3::pyclass;
 
-#[derive(Debug, Serialize, Deserialize, PartialEq, Eq, GoGenerate)]
+#[pyclass]
+#[derive(Debug, Serialize, Clone, Deserialize, PartialEq, Eq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct NotifyStopMonitoring {
     pub service_delivery_info: ServiceDeliveryInfo,

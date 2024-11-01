@@ -9,7 +9,7 @@ use crate::{
     },
 };
 
-#[derive(Debug, Serialize, Deserialize, PartialEq, Eq, GoGenerate)]
+#[derive(Debug, Serialize, Clone, Deserialize, PartialEq, Eq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct VehicleMonitoringDelivery {
     #[serde(flatten)]

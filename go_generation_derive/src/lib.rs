@@ -5,21 +5,42 @@ use syn::{
     Ident, Type, Variant,
 };
 
+use std::env;
 use std::io::Write;
-use std::path::Path;
+use std::path::PathBuf;
 use std::{fs::File, fs::OpenOptions};
 
-const GO_FILE_PATH: &str = "../go/generation.go";
+fn find_go_file() -> Option<PathBuf> {
+    // Get the current working directory
+    let current_dir = env::current_dir().expect("Failed to get current directory");
+
+    // Define both potential paths
+    let paths = vec![
+        current_dir.join("go/generation.go"),
+        current_dir.join("../go/generation.go"),
+    ];
+
+    // Iterate through the paths and return the first existing one
+    for path in paths {
+        if path.exists() {
+            return Some(path);
+        }
+    }
+
+    None // Return None if neither path exists
+}
 
 fn add_to_file(go_code: &str) {
-    // Append the generated code to the existing file
-    let path = Path::new(GO_FILE_PATH);
+
+    match find_go_file() {
+        Some(path) => {
+
 
     // Create or open the file for appending
     let mut file = OpenOptions::new()
         .write(true)
         .append(true)
-        .open(path)
+        .open(path.clone())
         .unwrap_or_else(|_| {
             // Create the file if it does not exist
             File::create(&path).expect("Unable to create file")
@@ -28,7 +49,14 @@ fn add_to_file(go_code: &str) {
     // Write the generated code to the file
     if let Err(e) = writeln!(file, "{}", go_code) {
         eprintln!("Failed to write to file: {}", e);
+    }  
+        }
+        None => {
+            println!("Go file not found in expected locations.");
+        }
     }
+    
+
 }
 
 fn to_pascal_case(s: &str) -> String {

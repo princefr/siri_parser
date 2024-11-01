@@ -5,7 +5,7 @@ use crate::enums::{arrival_status::ArrivalStatus, boarding_activity::BoardingAct
 
 use super::stop_assigment::StopAssignment;
 
-#[derive(Debug, Clone, Serialize, Deserialize, PartialEq, Eq, GoGenerate)]
+#[derive(Debug, Clone,  Serialize, Deserialize, PartialEq, Eq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct ArrivalInfo {
     pub aimed_arrival_time: Option<String>, // Consider using a proper DateTime type

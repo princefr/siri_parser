@@ -5,7 +5,7 @@ use crate::siri_sm::monitored_vehicle_journey::MonitoredVehicleJourney;
 
 use super::progress_between_stops::ProgressBetweenStops;
 
-#[derive(Debug, Serialize, Deserialize, PartialEq, Eq, GoGenerate)]
+#[derive(Debug, Serialize, Clone, Deserialize, PartialEq, Eq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct VehicleActivity {
     recorded_at_time: Option<String>, // Heure de mise à jour de la position

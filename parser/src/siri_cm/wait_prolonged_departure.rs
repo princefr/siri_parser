@@ -1,6 +1,6 @@
 
 
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 struct WaitProlongedDeparture {
     recorded_at_time: DateTime<Utc>, // Date et heure des données
     distributor_info: DistributorInfoGroup, // Information du distributeur

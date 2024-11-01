@@ -2,7 +2,7 @@ use go_generation_derive::GoGenerate;
 use serde::{Deserialize, Serialize};
 use serde_json::Value;
 
-#[derive(Debug, Serialize, PartialEq, Eq, GoGenerate)]
+#[derive(Debug, Serialize, Clone, PartialEq, Eq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct XxxDelivery {
     pub response_timestamp: String, // Timestamp for when the response was created

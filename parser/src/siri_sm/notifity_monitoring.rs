@@ -3,7 +3,7 @@ use serde::{Deserialize, Serialize};
 
 use crate::models::service_delivery_info::ServiceDeliveryInfo;
 
-#[derive(Debug, Deserialize, PartialEq, Serialize, GoGenerate)]
+#[derive(Debug, Deserialize, Clone, PartialEq, Serialize, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct NotifyMonitoring {
     #[serde(alias = "ServiceDeliveryInfo", alias = "ns2:ServiceDeliveryInfo")]

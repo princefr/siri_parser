@@ -3,7 +3,7 @@ use serde::{Deserialize, Serialize};
 
 use super::{facility::Facility, facility_status::FacilityStatus, validity_period::ValidityPeriod};
 
-#[derive(Debug, Serialize, Deserialize, PartialEq, Eq, GoGenerate)]
+#[derive(Debug, Serialize, Clone, Deserialize, PartialEq, Eq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct FacilityCondition {
     pub facility: Facility,           // Description générale d'une facility

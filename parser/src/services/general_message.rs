@@ -4,8 +4,10 @@ use crate::{
 };
 use go_generation_derive::GoGenerate;
 use serde::{Deserialize, Serialize};
+use pyo3::pyclass;
 
-#[derive(Debug, Deserialize, Serialize, PartialEq, Eq, GoGenerate)]
+#[pyclass]
+#[derive(Debug, Deserialize, Clone, Serialize, PartialEq, Eq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct NotifyGeneralMessage {
     pub service_delivery_info: ServiceDeliveryInfo,

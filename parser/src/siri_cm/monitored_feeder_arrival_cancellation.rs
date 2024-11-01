@@ -1,7 +1,7 @@
 use serde::{Deserialize, Serialize};
 
 
-#[derive(Debug, Default, Serialize, Deserialize, PartialEq)]
+#[derive(Debug, Default, Clone, Serialize, Deserialize, PartialEq)]
 #[serde(rename_all = "PascalCase")]
 pub struct MonitoredFeederArrivalCancellation {
     recorded_at_time: String, // Date et heure des données

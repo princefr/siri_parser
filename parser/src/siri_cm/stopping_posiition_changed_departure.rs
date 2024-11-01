@@ -1,6 +1,6 @@
 
 
-#[derive(Debug, Default)]
+#[derive(Debug, Default, Clone)]
 struct StoppingPositionChangedDeparture {
     recorded_at_time: chrono::DateTime<chrono::Utc>, // Date et heure de production des données
     distributor_info: DistributorInfoGroup, // Informations sur le distributeur

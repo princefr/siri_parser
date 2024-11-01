@@ -3,7 +3,7 @@ use serde::{Deserialize, Serialize};
 
 use crate::enums::arrival_status::ArrivalStatus;
 
-#[derive(Debug, Default, Serialize, Deserialize, PartialEq, GoGenerate)]
+#[derive(Debug, Default, Clone, Serialize, Deserialize, PartialEq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct Arrival {
     aimed_arrival_time: Option<String>,          // dateTime

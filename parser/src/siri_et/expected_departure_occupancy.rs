@@ -5,7 +5,7 @@ use crate::enums::occupancy::Occupancy;
 
 use super::group_reservation::GroupReservation;
 
-#[derive(Debug, Serialize, Deserialize, PartialEq, Eq, GoGenerate)]
+#[derive(Debug, Serialize, Clone, Deserialize, PartialEq, Eq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct ExpectedDepartureOccupancy {
     passenger_category: Option<String>,        // NLString

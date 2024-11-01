@@ -3,7 +3,7 @@ use serde::{Deserialize, Serialize};
 
 use super::{estimated_call::EstimatedCall, recorded_call::RecordedCall};
 
-#[derive(Debug, Serialize, Deserialize, PartialEq, GoGenerate)]
+#[derive(Debug, Serialize, Clone, Deserialize, PartialEq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct Calls {
     pub recorded_calls: Option<Vec<RecordedCall>>,

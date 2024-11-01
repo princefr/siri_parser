@@ -42,7 +42,9 @@ pub enum ErrorCondition {
     OtherError(Box<Error>),                  // Other error
 }
 
-#[derive(Debug, Serialize, PartialEq, Eq, GoGenerate)]
+
+
+#[derive(Debug, Clone, Serialize, PartialEq, Eq, GoGenerate)]
 pub enum SiriServiceType {
     ProductionTimetable(NotifyProductionTimetable), // Delivery structure for production timetable
     EstimatedTimetable(NotifyEstimatedTimetable),   // Delivery structure for estimated timetable

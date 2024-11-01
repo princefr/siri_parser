@@ -11,7 +11,7 @@ use super::{
     expected_occupancy::ExpectedOccupancy,
 };
 
-#[derive(Debug, Serialize, Deserialize, PartialEq, Eq, GoGenerate)]
+#[derive(Debug, Serialize, Clone, Deserialize, PartialEq, Eq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct EstimatedCall {
     stop_point_ref: Option<String>,  // StopPointRef

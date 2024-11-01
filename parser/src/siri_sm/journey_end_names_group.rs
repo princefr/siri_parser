@@ -3,7 +3,7 @@ use serde::{Deserialize, Serialize};
 
 use super::via::Via;
 
-#[derive(Debug, Default, Serialize, Deserialize, PartialEq, GoGenerate)]
+#[derive(Debug, Default, Clone, Serialize, Deserialize, PartialEq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct JourneyEndNamesGroup {
     origin_ref: Option<String>,  // JourneyPlaceCode for the origin stop

@@ -3,7 +3,7 @@ use serde::{Deserialize, Serialize};
 
 use super::monitored_vehicle_journey::MonitoredVehicleJourney;
 
-#[derive(Debug, Serialize, Deserialize, PartialEq, Eq, GoGenerate)]
+#[derive(Debug, Serialize, Clone, Deserialize, PartialEq, Eq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct MonitoredStopVisit {
     recorded_at_time: String, // xsd:dateTime

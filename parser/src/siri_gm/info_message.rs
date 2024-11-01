@@ -1,6 +1,6 @@
 use serde::{Deserialize, Serialize};
 
-#[derive(Debug, Serialize, Deserialize, PartialEq, GoGenerate)]
+#[derive(Debug, Serialize, Clone, Deserialize, PartialEq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct InfoMessage {
     format_ref: String,                // FormatCode - always "France" for this profile

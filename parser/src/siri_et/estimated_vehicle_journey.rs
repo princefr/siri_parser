@@ -9,7 +9,7 @@ use super::{
     vehicle_journey_info::VehicleJourneyInfo,
 };
 
-#[derive(Debug, Serialize, Deserialize, PartialEq, GoGenerate)]
+#[derive(Debug, Serialize, Clone, Deserialize, PartialEq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct EstimatedVehicleJourney {
     pub line_ref: String,

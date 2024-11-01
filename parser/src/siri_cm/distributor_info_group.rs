@@ -1,6 +1,6 @@
 
 
-#[derive(Debug, Default)]
+#[derive(Debug, Default, Clone, Serialize, Deserialize, PartialEq, GoGenerate)]
 struct DistributorInfoGroup {
     interchange_ref: Option<String>, // Identifiant de la correspondance entre courses
     connection_link_ref: String, // Identifiant de la correspondance physique

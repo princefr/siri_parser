@@ -1,6 +1,6 @@
 use serde::{Deserialize, Serialize};
 
-#[derive(Debug, Default, Serialize, Deserialize, PartialEq, GoGenerate)]
+#[derive(Debug, Default, Clone, Serialize, Deserialize, PartialEq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 struct ConnectingJourney {
     line_ref: Option<String>, // Identifiant de la ligne

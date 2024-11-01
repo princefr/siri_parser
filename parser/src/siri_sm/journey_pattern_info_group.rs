@@ -2,7 +2,7 @@ use crate::enums::vehicle_mode::VehicleMode;
 use go_generation_derive::GoGenerate;
 use serde::{Deserialize, Serialize};
 
-#[derive(Debug, Default, Serialize, Deserialize, PartialEq, Eq, GoGenerate)]
+#[derive(Debug, Default, Clone, Serialize, Deserialize, PartialEq, Eq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct JourneyPatternInfoGroup {
     journey_pattern_ref: Option<String>, // JourneyPatternCode for the mission

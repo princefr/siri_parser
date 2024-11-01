@@ -2,7 +2,7 @@ use serde::{Deserialize, Serialize};
 
 use crate::models::framed_vehicle_journey_ref::FramedVehicleJourneyRef;
 
-#[derive(Debug, Serialize, Deserialize, PartialEq, GoGenerate)]
+#[derive(Debug, Serialize, Clone, Deserialize, PartialEq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct JourneyInfo {
     pub vehicle_journey_name: Option<String>,

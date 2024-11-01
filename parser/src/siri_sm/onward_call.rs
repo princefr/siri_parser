@@ -8,7 +8,7 @@ use crate::enums::{
 
 use super::stop_identity::StopIdentity;
 
-#[derive(Debug, Default, Serialize, Deserialize, PartialEq, Eq, GoGenerate)]
+#[derive(Debug, Default, Clone, Serialize, Deserialize, PartialEq, Eq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct OnwardCall {
     stop_identity: StopIdentity,                           // Stop-Point-Ref

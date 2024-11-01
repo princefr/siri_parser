@@ -2,7 +2,7 @@ use serde::{Deserialize, Serialize};
 
 
 
-#[derive(Debug, Default, Serialize, Deserialize, PartialEq, GoGenerate)]
+#[derive(Debug, Default, Clone, Serialize, Deserialize, PartialEq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct ConnectionMonitoringDistributorDelivery {
     version: String, // Version du service, ex: '2.1:FR-IDF-2.4'

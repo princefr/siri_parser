@@ -3,7 +3,7 @@ use serde::{Deserialize, Serialize};
 
 use super::journey_end_names_group::JourneyEndNamesGroup;
 
-#[derive(Debug, Default, Serialize, Deserialize, PartialEq, GoGenerate)]
+#[derive(Debug, Default, Clone, Serialize, Deserialize, PartialEq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct VehicleJourneyInfoGroup {
     //pub service_info: Option<ServiceInfoGroup>, // Service-Info-Group

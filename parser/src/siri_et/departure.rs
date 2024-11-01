@@ -3,7 +3,7 @@ use serde::{Deserialize, Serialize};
 
 use crate::enums::{boarding_activity::BoardingActivity, departure_status::DepartureStatus};
 
-#[derive(Debug, Default, Serialize, Deserialize, PartialEq, GoGenerate)]
+#[derive(Debug, Default, Clone, Serialize, Deserialize, PartialEq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct Departure {
     aimed_departure_time: Option<String>,      // dateTime

@@ -3,7 +3,7 @@ use serde::{Deserialize, Serialize};
 
 use crate::enums::vehicle_mode::VehicleMode;
 
-#[derive(Debug, Serialize, Deserialize, PartialEq, Eq, GoGenerate)]
+#[derive(Debug, Serialize, Clone, Deserialize, PartialEq, Eq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct JourneyPatternInfo {
     pub journey_pattern_ref: Option<String>, // Optional identifier for the journey pattern

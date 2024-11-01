@@ -4,7 +4,7 @@ use serde::{Deserialize, Serialize};
 
 use super::framed_vehicle_journey_ref::FramedVehicleJourneyRef;
 
-#[derive(Debug, Default, Serialize, Deserialize, PartialEq, Eq, GoGenerate)]
+#[derive(Debug, Default, Clone, Serialize, Deserialize, PartialEq, Eq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct VehicleActivityCancellation {
     recorded_at_time: Option<String>, // Heure à laquelle l’annulation a été signalée

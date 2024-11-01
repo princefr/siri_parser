@@ -3,7 +3,7 @@ use serde::{Deserialize, Serialize};
 
 
 
-#[derive(Debug, Default, Serialize, Deserialize, PartialEq)]
+#[derive(Debug, Default, Clone, Serialize, Deserialize, PartialEq)]
 #[serde(rename_all = "PascalCase")]
 pub struct MonitoredFeederArrival {
     recorded_at_time: String, // Date and time data was produced

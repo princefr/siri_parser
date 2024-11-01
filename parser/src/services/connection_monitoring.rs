@@ -6,7 +6,10 @@ use crate::{
     notifications::connection_monitoring_notification::ConnectionMonitoringNotification,
 };
 
-#[derive(Debug, Deserialize, Serialize, PartialEq, Eq, GoGenerate)]
+use pyo3::pyclass;
+
+#[pyclass]
+#[derive(Debug, Deserialize, Clone, Serialize, PartialEq, Eq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct NotifyConnectionMonitoring {
     pub service_delivery_info: ServiceDeliveryInfo,

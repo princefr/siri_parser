@@ -8,7 +8,7 @@ use super::{
     validity_condition::ValidityCondition,
 };
 
-#[derive(Debug, Serialize, Deserialize, PartialEq, Eq, GoGenerate)]
+#[derive(Debug, Serialize, Clone, Deserialize, PartialEq, Eq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct Facility {
     facility_code: Option<String>, // FacilityCode - Identifiant de la Facility
@@ -22,7 +22,7 @@ pub struct Facility {
     suitabilities: Option<Suitabilities>,
 }
 
-#[derive(Debug, Serialize, Deserialize, PartialEq, Eq, GoGenerate)]
+#[derive(Debug, Serialize, Clone, Deserialize, PartialEq, Eq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct Limitations {
     pub wheelchair_access: Option<bool>,
@@ -30,20 +30,20 @@ pub struct Limitations {
     pub lift_free_access: Option<bool>,
 }
 
-#[derive(Debug, Serialize, Deserialize, PartialEq, Eq, GoGenerate)]
+#[derive(Debug, Serialize, Clone, Deserialize, PartialEq, Eq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct Suitabilities {
     pub suitability: Option<Vec<Suitability>>,
 }
 
-#[derive(Debug, Serialize, Deserialize, PartialEq, Eq, GoGenerate)]
+#[derive(Debug, Serialize, Clone, Deserialize, PartialEq, Eq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct Suitability {
     pub suitable: String,
     pub user_need: Option<UserNeed>,
 }
 
-#[derive(Debug, Serialize, Deserialize, PartialEq, Eq, GoGenerate)]
+#[derive(Debug, Serialize, Clone, Deserialize, PartialEq, Eq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct UserNeed {
     pub mobility_need: Option<String>,
