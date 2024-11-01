@@ -9,7 +9,7 @@
 
 
 
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/princefr/siri_parser/CI_golang.yml?style=for-the-badge)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/princefr/siri_parser/CI_golang.yml?style=for-the-badge 'Golang CI')
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/princefr/siri_parser/python_workflow.yml?style=for-the-badge)
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/princefr/siri_parser/CI_rust.yml?style=for-the-badge)
 
