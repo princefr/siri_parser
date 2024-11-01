@@ -1,11 +1,18 @@
 # SIRI Profile France Parser (Not Ready..yet)
-[![License][license-badge]][6]
-[![Go][go-badge]][0]
-[![Python][python-badge]][1]
-[![Python CI][python-test-badge]][3]
-[![Golang CI][go-test-badge]][4]
-[![Golang CI][rust-test-badge]][5]
-#
+
+![GitHub License](https://img.shields.io/github/license/princefr/siri_parser?style=for-the-badge)
+
+![PyPI - Version](https://img.shields.io/pypi/v/siri-parser?style=for-the-badge)
+![Crates.io Version](https://img.shields.io/crates/v/siri-parser?style=for-the-badge)
+![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/princefr/siri_parser%2Fgo?style=for-the-badge&label=Go%20V.1.0.0&link=https%3A%2F%2Fpkg.go.dev%2Fgithub.com%2Fprincefr%2Fsiri_parser%2Fgo)
+
+
+
+
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/princefr/siri_parser/CI_golang.yml?style=for-the-badge)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/princefr/siri_parser/python_workflow.yml?style=for-the-badge)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/princefr/siri_parser/CI_rust.yml?style=for-the-badge)
+
 
 A Rust library for parsing  SIRI (Service Interface for Real-time Information) messages according to the French national profile specification (SIRI Profile France).
 
@@ -51,7 +58,7 @@ MIT license
 [divider]: https://raw.githubusercontent.com/sebastienrousseau/vault/main/assets/elements/divider.svg "divider"
 [rust-test-badge]: https://img.shields.io/docsrs/xmlschema.svg?style=for-the-badge 'Rust CI'
 [go-test-badge]: https://img.shields.io/docsrs/xmlschema.svg?style=for-the-badge 'GO CI'
-[python-test-badge]: https://img.shields.io/docsrs/xmlschema.svg?style=for-the-badge 'Python CI'
+[python-test-badge]: https://img.shields.io/github/actions/workflow/status/princefr/siri_parser/python_workflow.yml?style=flat-square 'Python CI'
 [libs-badge]: https://img.shields.io/badge/lib.rs-v0.0.2-orange.svg?style=for-the-badge 'Lib.rs'
 [license-badge]: https://img.shields.io/crates/l/xmlschema.svg?style=for-the-badge 'License'
 [go-badge]: https://img.shields.io/crates/l/xmlschema.svg?style=for-the-badge 'Go Package'
