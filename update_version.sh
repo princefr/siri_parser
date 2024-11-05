@@ -22,10 +22,6 @@ echo "Cleaned version: $VERSION"  # Debug output
 # Split the version string into components (major, minor, patch)
 IFS='.' read -r -a VERSION_PARTS <<< "$VERSION"
 
-# Debugging: Check the length of the version parts
-echo "Version parts: ${VERSION_PARTS[@]}"  # Debug output
-echo "Number of parts: ${#VERSION_PARTS[@]}"  # Debug output
-
 # Check if we have exactly three parts (major, minor, patch)
 if [ ${#VERSION_PARTS[@]} -ne 3 ]; then
     echo "Invalid version format. Expected major.minor.patch format, got: $VERSION"
