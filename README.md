@@ -2,7 +2,7 @@
 
 ![GitHub License](https://img.shields.io/github/license/princefr/siri_parser?style=for-the-badge)
 
-![PyPI - Version](https://img.shields.io/pypi/v/siri-parser?style=for-the-badge)
+[![PyPI](https://img.shields.io/pypi/v/maturin.svg?logo=python&style=for-the-badge)](https://pypi.org/project/siri-parser)
 ![Crates.io Version](https://img.shields.io/crates/v/siri-parser?style=for-the-badge)
 ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/princefr/siri_parser%2Fgo?style=for-the-badge&label=Go%20V.1.0.0&link=https%3A%2F%2Fpkg.go.dev%2Fgithub.com%2Fprincefr%2Fsiri_parser%2Fgo)
 
