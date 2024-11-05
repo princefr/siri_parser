@@ -21,15 +21,11 @@ pub mod notifications;
 pub mod services;
 pub mod siri_et;
 pub mod siri_sm;
-// pub mod siri_cm;
+pub mod structures;
 pub mod siri_vm;
-// pub mod siri_gm;
+pub mod siri_gm;
 pub mod siri_fm;
-//pub mod siri_se;
 
-// You can define the specific codes as constants or enums if needed
-const SHORT_TRAIN: &str = "shortTrain"; // Train court
-const LONG_TRAIN: &str = "longTrain"; // Train long
 
 #[derive(Debug, Serialize, Deserialize, PartialEq)]
 pub struct Error {
@@ -120,6 +116,9 @@ impl<'de> Deserialize<'de> for SiriServiceType {
                         "NotifySituationExchange" => {
                             service_type =
                                 Some(SiriServiceType::SituationExchange(map.next_value()?));
+                        }
+                        "GeneralMessage" => {
+                            service_type = Some(SiriServiceType::GeneralMessage(map.next_value()?));
                         }
 
                         _ => {

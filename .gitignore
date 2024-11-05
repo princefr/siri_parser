@@ -6,4 +6,7 @@
 /**/**/venv
 /**/test.py
 /**/**/test.py
+.bak
+/**/*.bak
+/**/**/*.bak
 

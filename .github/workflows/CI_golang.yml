@@ -8,6 +8,32 @@ on:
     types: [created]
 
 jobs:
+  build-rust-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Rust
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+          override: true
+
+      - name: Test
+        run: |
+          cd parser
+          cargo test --verbose
+
+      - name: Build the release
+        run: |
+          cd parser
+          cargo build --release
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: store libparser
+          path: target/release/libparser
+          
   build-and-test:
     runs-on: ubuntu-latest
     steps:

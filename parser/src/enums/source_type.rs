@@ -1,8 +1,9 @@
+use go_generation_derive::GoGenerate;
 use serde::{Deserialize, Serialize};
 
-#[derive(Debug, Serialize, Deserialize, PartialEq, GoGenerate)]
+#[derive(Debug, Serialize, Deserialize, PartialEq, GoGenerate, Eq, Clone)]
 #[serde(rename_all = "camelCase")]
-enum SourceType {
+pub enum SourceType {
     DirectReport, // Rapport remis en direct
     Email,        // Rapport reçu via email
     Phone,        // Rapport reçu via téléphone

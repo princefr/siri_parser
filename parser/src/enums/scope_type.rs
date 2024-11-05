@@ -1,8 +1,9 @@
+use go_generation_derive::GoGenerate;
 use serde::{Deserialize, Serialize};
 
-#[derive(Debug, Serialize, Deserialize, PartialEq, GoGenerate)]
+#[derive(Debug, Serialize, Deserialize, PartialEq, GoGenerate, Eq, Clone)]
 #[serde(rename_all = "camelCase")]
-enum ScopeType {
+pub enum ScopeType {
     General,        // La perturbation a un impact global.
     Operator,       // La perturbation a un impact sur un opérateur spécifique.
     Network,        // La perturbation a un impact sur tout le réseau.

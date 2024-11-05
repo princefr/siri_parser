@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:siri="http://wsdl.siri.org.uk" xmlns:siri1="http://www.siri.org.uk/siri" xmlns:acsb="http://www.ifopt.org.uk/acsb" xmlns:ifop="http://www.ifopt.org.uk/ifopt">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <siri:NotifyConnexionMonitoring>
+         <ServiceDeliveryInfo>
+            <siri1:ResponseTimestamp>2004-12-17T09:30:46-05:00</siri1:ResponseTimestamp>
+            <siri1:ProducerRef>KUBRICK</siri1:ProducerRef>
+         </ServiceDeliveryInfo>
+         <Notification>
+            <ConnectionMonitoringFeederDelivery version="2.0">
+                <ResponseTimestamp>2001-12-17T09:30:47-05:00</ResponseTimestamp>
+                <RequestMessageRef>http://www.xmlspy.com</RequestMessageRef>
+                <Status>true</Status>
+                <ValidUntil>2001-12-17T09:30:47-05:00</ValidUntil>
+                <MonitoredFeederArrival>
+                    <RecordedAtTime>2001-12-17T09:30:47-05:00</RecordedAtTime>
+                    <ValidUntilTime>2001-12-17T09:30:47-05:00</ValidUntilTime>
+                    <ConnectionLinkRef>98789</ConnectionLinkRef>
+                    <VisitNumber>2</VisitNumber>
+                    <StopPointName xml:lang="EN">Erehwon</StopPointName>
+                    <FeederJourney>
+                        <LineRef>123</LineRef>
+                        <DirectionRef>OUT</DirectionRef>
+                        <FramedVehicleJourneyRef>
+                        <DataFrameRef>1967-08-13</DataFrameRef>
+                        <DatedVehicleJourneyRef>09876</DatedVehicleJourneyRef>
+                        </FramedVehicleJourneyRef>
+                        <PublishedLineName xml:lang="EN">Line 123</PublishedLineName>
+                        <DirectionName xml:lang="EN">Outbound</DirectionName>
+                        <OperatorRef>123</OperatorRef>
+                        <ProductCategoryRef>School</ProductCategoryRef>
+                        <ServiceFeatureRef>CyclesPermitted</ServiceFeatureRef>
+                        <VehicleFeatureRef>LowFloors</VehicleFeatureRef>
+                        <OriginName xml:lang="EN">Purgatory</OriginName>
+                        <DestinationName xml:lang="EN">Paradise</DestinationName>
+                        <JourneyNote>from A to B</JourneyNote>
+                        <OriginAimedDepartureTime>2001-12-17T08:30:47-05:00</OriginAimedDepartureTime>
+                        <DestinationAimedArrivalTime>2001-12-17T10:30:47-05:00</DestinationAimedArrivalTime>
+                        <BlockRef>12345</BlockRef>
+                        <CourseOfJourneyRef>89765</CourseOfJourneyRef>
+                        <VehicleRef>V987</VehicleRef>
+                        <Monitored>true</Monitored>
+                        <AimedDepartureTime>2001-12-17T08:35:47-05:00</AimedDepartureTime>
+                    </FeederJourney>
+                    <VehicleAtStop>false</VehicleAtStop>
+                    <NumberOfTransferPassengers>12</NumberOfTransferPassengers>
+                    <ExpectedArrivalTime>2001-12-17T09:30:47-05:00</ExpectedArrivalTime>
+                </MonitoredFeederArrival>
+                <MonitoredFeederArrivalCancellation>
+                    <RecordedAtTime>2001-12-17T09:30:47-05:00</RecordedAtTime>
+                    <ConnectionLinkRef>987259</ConnectionLinkRef>
+                    <VisitNumber>2</VisitNumber>
+                    <LineRef>123</LineRef>
+                    <DirectionRef>OUT</DirectionRef>
+                    <VehicleJourneyRef>
+                    <DataFrameRef>1967-08-13</DataFrameRef>
+                    <DatedVehicleJourneyRef>09867</DatedVehicleJourneyRef>
+                    </VehicleJourneyRef>
+                    <PublishedLineName xml:lang="EN">Line 123</PublishedLineName>
+                    <DirectionName xml:lang="EN">Outbound</DirectionName>
+                    <Reason>Short staff</Reason>
+                </MonitoredFeederArrivalCancellation>
+            </ConnectionMonitoringFeederDelivery>
+         </Notification>
+      </siri:NotifyConnexionMonitoring>
+   </soapenv:Body>
+</soapenv:Envelope>

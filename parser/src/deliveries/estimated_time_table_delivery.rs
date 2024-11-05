@@ -5,8 +5,7 @@ use crate::models::{
     estimated_journey_version_frame::EstimatedJourneyVersionFrame, xxx_delivery::XxxDelivery,
 };
 
-#[derive(Debug, Serialize, Clone, Deserialize, PartialEq, Eq)]
-pub struct ResponseTimestamp(String);
+
 
 #[derive(Debug, Serialize, Clone, Deserialize, PartialEq, Eq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
