@@ -1,9 +1,9 @@
 use go_generation_derive::GoGenerate;
 use serde::{Deserialize, Serialize};
 
-use crate::siri_et::{
-    journey_identifier::JourneyIdentifier, journey_pattern_info::JourneyPatternInfo,
-};
+
+
+use crate::structures::{journey_identifier::JourneyIdentifier, journey_pattern_info::JourneyPatternInfo};
 
 use super::{
     estimated_calls::EstimatedCalls, framed_vehicle_journey_ref::FramedVehicleJourneyRef,

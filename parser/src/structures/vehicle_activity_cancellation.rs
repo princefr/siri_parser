@@ -1,8 +1,8 @@
-use crate::siri_sm::journey_pattern_info_group::JourneyPatternInfoGroup;
+
 use go_generation_derive::GoGenerate;
 use serde::{Deserialize, Serialize};
 
-use super::framed_vehicle_journey_ref::FramedVehicleJourneyRef;
+use super::{framed_vehicle_journey_ref::FramedVehicleJourneyRef, journey_pattern_info_group::JourneyPatternInfoGroup};
 
 #[derive(Debug, Default, Clone, Serialize, Deserialize, PartialEq, Eq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]

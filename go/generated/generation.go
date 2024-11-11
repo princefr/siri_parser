@@ -4,6 +4,11 @@ type Envelope struct {
 	Body Body `json:"Body,omitempty"`
 }
 
+
+type SiriType interface {
+	EstimatedTimetable() *NotifyEstimatedTimetable
+}
+
 type Body struct {
 	//NotifyProductionTimetable *ProductionTimetable `json:"ProductionTimetable,omitempty"`
 	NotifyEstimatedTimetable *NotifyEstimatedTimetable `json:"EstimatedTimetable,omitempty"`
@@ -13,6 +18,10 @@ type Body struct {
 	// NotifyGeneralMessage *GeneralMessage `json:"NotifyGeneralMessage,omitempty"`
 	// NotifyFacilityMonitoring *FacilityMonitoring `json:"NotifyFacilityMonitoring,omitempty"`
 	// NotifySituationExchange *SituationExchange `json:"NotifySituationExchange,omitempty"`
+}
+
+func (b *Body) EstimatedTimetable() *NotifyEstimatedTimetable {
+	
 }
 
 type EstimatedTimetableDelivery struct {

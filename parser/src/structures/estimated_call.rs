@@ -6,10 +6,6 @@ use crate::enums::{
     departure_status::DepartureStatus, occupancy::Occupancy,
 };
 
-use super::{
-    arrival::Arrival, departure::Departure, expected_capacity::ExpectedCapacity,
-    expected_occupancy::ExpectedOccupancy,
-};
 
 #[derive(Debug, Serialize, Clone, Deserialize, PartialEq, Eq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]

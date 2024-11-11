@@ -1,9 +1,5 @@
 use crate::{
-    models::xxx_delivery::XxxDelivery,
-    siri_sm::{
-        monitored_stop_visit::MonitoredStopVisit,
-        monitored_stop_visit_cancellation::MonitoredStopVisitCancellation,
-    },
+    models::xxx_delivery::XxxDelivery, structures::{monitored_stop_visit::MonitoredStopVisit, monitored_stop_visit_cancellation::MonitoredStopVisitCancellation},
 };
 use go_generation_derive::GoGenerate;
 use serde::{Deserialize, Serialize};

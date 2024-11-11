@@ -19,12 +19,7 @@ pub mod enums;
 pub mod models;
 pub mod notifications;
 pub mod services;
-pub mod siri_et;
-pub mod siri_sm;
 pub mod structures;
-pub mod siri_vm;
-pub mod siri_gm;
-pub mod siri_fm;
 
 
 #[derive(Debug, Serialize, Deserialize, PartialEq)]

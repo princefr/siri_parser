@@ -1,9 +1,8 @@
 use go_generation_derive::GoGenerate;
 use serde::{Deserialize, Serialize};
 
-use crate::siri_sm::journey_pattern_info_group::JourneyPatternInfoGroup;
 
-use super::{dated_call::DatedCall, service_info_group::ServiceInfoGroup};
+use super::{dated_call::DatedCall, journey_pattern_info_group::JourneyPatternInfoGroup, service_info_group::ServiceInfoGroup};
 
 
 #[derive(Debug, Serialize, Clone, Deserialize, PartialEq, Eq, GoGenerate)]

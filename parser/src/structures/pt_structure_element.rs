@@ -1,9 +1,9 @@
 use go_generation_derive::GoGenerate;
 use serde::{Deserialize, Serialize};
 
-use crate::{enums::{audience::Audience, scope_type::ScopeType, sensitivity::Sensivity}, siri_fm::validity_period::ValidityPeriod};
+use crate::enums::{audience::Audience, scope_type::ScopeType, sensitivity::Sensivity};
 
-use super::{affect::Affect, pt_consequence::PtConsequence, pt_situation_body_group::PtSituationBodyGroup, publishing_actions::PublishingActions, situation_based_identity_group::SituationBasedIdentityGroup, situation_source::SituationSource};
+use super::{affect::Affect, pt_consequence::PtConsequence, pt_situation_body_group::PtSituationBodyGroup, publishing_actions::PublishingActions, situation_based_identity_group::SituationBasedIdentityGroup, situation_source::SituationSource, validity_period::ValidityPeriod};
 
 #[derive(Debug, Serialize, Clone, Deserialize, PartialEq, Eq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]

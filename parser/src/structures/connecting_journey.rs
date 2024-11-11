@@ -1,7 +1,9 @@
 use go_generation_derive::GoGenerate;
 use serde::{Deserialize, Serialize};
 
-use crate::{models::framed_vehicle_journey_ref::FramedVehicleJourneyRef, siri_et::distribution_group::DisruptionGroup, siri_sm::{journey_pattern_info_group::JourneyPatternInfoGroup, vehicle_journey_info_group::VehicleJourneyInfoGroup}};
+use crate::{models::framed_vehicle_journey_ref::FramedVehicleJourneyRef};
+
+use super::{distribution_group::DisruptionGroup, journey_pattern_info_group::JourneyPatternInfoGroup, vehicle_journey_info_group::VehicleJourneyInfoGroup};
 
 
 

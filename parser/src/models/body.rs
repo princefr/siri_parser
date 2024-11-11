@@ -1,4 +1,3 @@
-use go_generation_derive::GoGenerate;
 use pyo3::pyclass;
 use serde::{Deserialize, Serialize};
 

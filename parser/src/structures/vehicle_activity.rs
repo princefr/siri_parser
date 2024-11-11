@@ -1,9 +1,6 @@
 use go_generation_derive::GoGenerate;
 use serde::{Deserialize, Serialize};
-
-use crate::siri_sm::monitored_vehicle_journey::MonitoredVehicleJourney;
-
-use super::progress_between_stops::ProgressBetweenStops;
+use super::{monitored_vehicle_journey::MonitoredVehicleJourney, progress_between_stops::ProgressBetweenStops};
 
 #[derive(Debug, Serialize, Clone, Deserialize, PartialEq, Eq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]

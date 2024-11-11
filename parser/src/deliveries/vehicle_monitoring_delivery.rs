@@ -2,11 +2,7 @@ use go_generation_derive::GoGenerate;
 use serde::{Deserialize, Serialize};
 
 use crate::{
-    models::xxx_delivery::XxxDelivery,
-    siri_vm::{
-        vehicle_activity::VehicleActivity,
-        vehicle_activity_cancellation::VehicleActivityCancellation,
-    },
+    models::xxx_delivery::XxxDelivery, structures::{vehicle_activity::VehicleActivity, vehicle_activity_cancellation::VehicleActivityCancellation},
 };
 
 #[derive(Debug, Serialize, Clone, Deserialize, PartialEq, Eq, GoGenerate)]

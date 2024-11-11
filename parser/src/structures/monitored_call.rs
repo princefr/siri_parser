@@ -5,12 +5,7 @@ use crate::{
     enums::{
         arrival_status::ArrivalStatus, boarding_activity::BoardingActivity,
         departure_status::DepartureStatus,
-    },
-    siri_et::{
-        distribution_group::DisruptionGroup,
-        expected_departure_capacity::ExpectedDepartureCapacity,
-        expected_departure_occupancy::ExpectedDepartureOccupancy,
-    },
+    }, structures::{distribution_group::DisruptionGroup, expected_departure_capacity::ExpectedDepartureCapacity, expected_departure_occupancy::ExpectedDepartureOccupancy},
 };
 
 use super::stop_identity::StopIdentity;

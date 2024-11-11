@@ -1,4 +1,4 @@
-package siri_parser
+package main
 
 
 import "unsafe"
@@ -53,7 +53,7 @@ func ParseStr(s string) (*generated.Envelope, error) {
 	// Transform the C string to Go string
 	goString := C.GoString(result)
 
-   //fmt.Println(goString)
+   fmt.Println(goString)
 
 	// Create a variable to hold the unmarshaled data
 	var body generated.Envelope
@@ -175,8 +175,9 @@ func main() {
    </soapenv:Body>
 </soapenv:Envelope>
 `
-	_, err := ParseStr(input)
+	data, err := ParseStr(input)
    if err != nil {
       fmt.Printf("Parse error: %s\n", err.Error())
    }
+   fmt.Printf("%+v\n", data.Body.EstimatedTimetable())
 }

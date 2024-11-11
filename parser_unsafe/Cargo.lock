@@ -72,6 +72,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "773648b94d0e5d620f64f280777445740e61fe701025087ec8b57f45c791888b"
 
 [[package]]
+name = "go_generation_derive"
+version = "0.1.7"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 2.0.85",
+]
+
+[[package]]
 name = "iana-time-zone"
 version = "0.1.61"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -192,9 +201,10 @@ dependencies = [
 
 [[package]]
 name = "parser"
-version = "0.1.0"
+version = "0.1.7"
 dependencies = [
  "chrono",
+ "go_generation_derive",
  "pyo3",
  "quick-xml",
  "serde",
@@ -203,7 +213,7 @@ dependencies = [
 
 [[package]]
 name = "parser_unsafe"
-version = "0.1.0"
+version = "0.1.7"
 dependencies = [
  "parser",
  "serde",

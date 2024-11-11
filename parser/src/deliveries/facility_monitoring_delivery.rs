@@ -1,8 +1,7 @@
 use go_generation_derive::GoGenerate;
 use serde::{Deserialize, Serialize};
 
-use crate::models::xxx_delivery::XxxDelivery;
-use crate::siri_fm::facility_condition::FacilityCondition;
+use crate::{models::xxx_delivery::XxxDelivery, structures::facility_condition::FacilityCondition};
 
 #[derive(Debug, Serialize, Clone, Deserialize, PartialEq, Eq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
