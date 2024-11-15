@@ -10,3 +10,6 @@ quick-xml = { version = "0.37.0", features = ["serialize"] }
 chrono = { version = "0.4.38", features = ["serde"] }
 pyo3 = { version = "0.18", features = ["extension-module", "abi3-py37"] }
 go_generation_derive = { path = "../go_generation_derive" }
+
+[dev-dependencies]
+test-case = "*"
