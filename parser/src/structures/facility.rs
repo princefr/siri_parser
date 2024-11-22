@@ -1,6 +1,6 @@
 use go_generation_derive::GoGenerate;
 use serde::{Deserialize, Serialize};
-
+use pyo3::pyclass;
 use crate::enums::facility_class::FacilityClass;
 
 use super::{
@@ -8,6 +8,9 @@ use super::{
     validity_condition::ValidityCondition,
 };
 
+
+
+#[pyclass]
 #[derive(Debug, Serialize, Clone, Deserialize, PartialEq, Eq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct Facility {
@@ -22,6 +25,8 @@ pub struct Facility {
     suitabilities: Option<Suitabilities>,
 }
 
+
+#[pyclass]
 #[derive(Debug, Serialize, Clone, Deserialize, PartialEq, Eq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct Limitations {
@@ -30,12 +35,15 @@ pub struct Limitations {
     pub lift_free_access: Option<bool>,
 }
 
+#[pyclass]
 #[derive(Debug, Serialize, Clone, Deserialize, PartialEq, Eq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct Suitabilities {
     pub suitability: Option<Vec<Suitability>>,
 }
 
+
+#[pyclass]
 #[derive(Debug, Serialize, Clone, Deserialize, PartialEq, Eq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct Suitability {
@@ -43,6 +51,7 @@ pub struct Suitability {
     pub user_need: Option<UserNeed>,
 }
 
+#[pyclass]
 #[derive(Debug, Serialize, Clone, Deserialize, PartialEq, Eq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct UserNeed {

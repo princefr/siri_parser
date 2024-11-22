@@ -9,3 +9,4 @@ pub enum JourneyIdentifier {
     EstimatedVehicleJourneyCode(String),
     DatedVehicleJourneyIndirectRef(DatedVehicleJourneyIndirectRef),
 }
+

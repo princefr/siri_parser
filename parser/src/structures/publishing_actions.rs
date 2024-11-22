@@ -1,9 +1,10 @@
 use go_generation_derive::GoGenerate;
 use serde::{Deserialize, Serialize};
-
+use pyo3::pyclass;
 use super::{notify_by_email_action::NotifyByEmailAction, notify_by_sms_action::NotifyBySmsAction, publish_to_display_action::PublishToDisplayAction, publish_to_mobile_action::PublishToMobileAction, publish_to_web_action::PublishToWebAction};
 
 
+#[pyclass]
 #[derive(Debug, Serialize, Clone, Deserialize, PartialEq, Eq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct PublishingActions {

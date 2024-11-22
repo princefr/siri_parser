@@ -1,7 +1,9 @@
 use crate::models::framed_vehicle_journey_ref::FramedVehicleJourneyRef;
 use go_generation_derive::GoGenerate;
 use serde::{Deserialize, Serialize};
+use pyo3::pyclass;
 
+#[pyclass]
 #[derive(Debug, Serialize, Clone, Deserialize, PartialEq, Eq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct MonitoredVehicleJourney {

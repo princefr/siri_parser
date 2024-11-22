@@ -1,8 +1,11 @@
 use go_generation_derive::GoGenerate;
 use serde::{Deserialize, Serialize};
-
+use pyo3::pyclass;
 use super::{estimated_call::EstimatedCall, recorded_call::RecordedCall};
 
+
+
+#[pyclass]
 #[derive(Debug, Serialize, Clone, Deserialize, PartialEq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct Calls {

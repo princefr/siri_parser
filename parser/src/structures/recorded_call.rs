@@ -1,14 +1,15 @@
 use go_generation_derive::GoGenerate;
 use serde::{Deserialize, Serialize};
-
+use pyo3::pyclass;
 use crate::enums::occupancy::Occupancy;
-
 use super::{
     arrival_info::ArrivalInfo, departure_info::DepartureInfo, distribution_group::DisruptionGroup,
     expected_departure_capacity::ExpectedDepartureCapacity,
     expected_departure_occupancy::ExpectedDepartureOccupancy,
 };
 
+
+#[pyclass]
 #[derive(Debug, Serialize, Clone, Deserialize, PartialEq, Eq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct RecordedCall {

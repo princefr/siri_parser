@@ -1,9 +1,11 @@
 
 use go_generation_derive::GoGenerate;
 use serde::{Deserialize, Serialize};
-
+use pyo3::pyclass;
 use super::{framed_vehicle_journey_ref::FramedVehicleJourneyRef, journey_pattern_info_group::JourneyPatternInfoGroup};
 
+
+#[pyclass]
 #[derive(Debug, Default, Clone, Serialize, Deserialize, PartialEq, Eq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct VehicleActivityCancellation {

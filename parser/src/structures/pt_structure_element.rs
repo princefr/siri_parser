@@ -1,10 +1,11 @@
 use go_generation_derive::GoGenerate;
 use serde::{Deserialize, Serialize};
-
+use pyo3::pyclass;
 use crate::enums::{audience::Audience, scope_type::ScopeType, sensitivity::Sensivity};
-
 use super::{affect::Affect, pt_consequence::PtConsequence, pt_situation_body_group::PtSituationBodyGroup, publishing_actions::PublishingActions, situation_based_identity_group::SituationBasedIdentityGroup, situation_source::SituationSource, validity_period::ValidityPeriod};
 
+
+#[pyclass]
 #[derive(Debug, Serialize, Clone, Deserialize, PartialEq, Eq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct PtSituationElement {

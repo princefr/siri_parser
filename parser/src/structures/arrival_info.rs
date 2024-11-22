@@ -1,10 +1,11 @@
 use go_generation_derive::GoGenerate;
 use serde::{Deserialize, Serialize};
-
+use pyo3::pyclass;
 use crate::enums::{arrival_status::ArrivalStatus, boarding_activity::BoardingActivity};
-
 use super::stop_assigment::StopAssignment;
 
+
+#[pyclass]
 #[derive(Debug, Clone,  Serialize, Deserialize, PartialEq, Eq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct ArrivalInfo {

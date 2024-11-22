@@ -1,6 +1,6 @@
 [package]
 name = "siri_parser_python"
-version = "0.1.7"
+version = "0.1.8"
 edition = "2021"
 
 

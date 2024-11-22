@@ -2,9 +2,11 @@ use super::location_structure::LocationStructure;
 use crate::enums::{monitoring_error::MonitoringError, occupancy::Occupancy};
 use go_generation_derive::GoGenerate;
 use serde::{Deserialize, Serialize};
+use pyo3::pyclass;
 
+#[pyclass]
 #[derive(Debug, Default, Clone, Serialize, Deserialize, PartialEq, GoGenerate)]
-struct JourneyProgressInfoGroup {
+pub struct JourneyProgressInfoGroup {
     monitored: Option<bool>, // Indicates if the vehicle is still located
     monitoring_error: Option<MonitoringError>, // Cause of delocalization, if applicable
     in_congestion: Option<bool>, // Indicates if the vehicle is in congestion

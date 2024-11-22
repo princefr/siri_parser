@@ -1,10 +1,10 @@
 use go_generation_derive::GoGenerate;
 use serde::{Deserialize, Serialize};
-
-
+use pyo3::pyclass;
 use super::{dated_call::DatedCall, journey_pattern_info_group::JourneyPatternInfoGroup, service_info_group::ServiceInfoGroup};
 
 
+#[pyclass]
 #[derive(Debug, Serialize, Clone, Deserialize, PartialEq, Eq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct DatedVehicleJourney {

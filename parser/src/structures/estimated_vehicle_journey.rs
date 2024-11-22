@@ -1,6 +1,6 @@
 use go_generation_derive::GoGenerate;
 use serde::{Deserialize, Serialize};
-
+use pyo3::pyclass;
 use super::{
     calls::Calls, distribution_group::DisruptionGroup, estimated_info::EstimatedInfo,
     journey_end_names::JourneyEndNames, journey_identifier::JourneyIdentifier,
@@ -9,6 +9,8 @@ use super::{
     vehicle_journey_info::VehicleJourneyInfo,
 };
 
+
+#[pyclass]
 #[derive(Debug, Serialize, Clone, Deserialize, PartialEq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct EstimatedVehicleJourney {

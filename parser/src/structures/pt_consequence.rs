@@ -1,12 +1,13 @@
 use go_generation_derive::GoGenerate;
 use serde::{Deserialize, Serialize};
-
+use pyo3::pyclass;
 use crate::enums::{conditions::Condition, severity::Severity};
-
 use super::{blocking::Blocking, boarding::Boarding, pt_advice::PtAdvice};
 
 
 
+
+#[pyclass]
 #[derive(Debug, Serialize, Clone, Deserialize, PartialEq, Eq, GoGenerate)]
 #[serde(rename_all = "PascalCase")]
 pub struct PtConsequence {
